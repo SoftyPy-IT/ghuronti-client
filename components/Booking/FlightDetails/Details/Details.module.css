@@ -1,0 +1,104 @@
+.detailsWrap{
+     width: 100%;
+     padding: 30px;
+     border: 1px solid #ddd;
+     text-align: left;
+     font-size: 14px;
+     margin-bottom: 30px;
+}
+.flightDetailInfo{
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     margin-top:20px;
+}
+.airportDetail{
+     display:flex;
+     justify-content: space-between;
+     margin-top:20px;
+}
+.detailBtn{
+     display:flex;
+
+}
+.detailBtn button{
+     background: #E9F6E9;
+     color: black;
+     margin-right: 5px;
+     font-size: 12px;
+     padding: 5px 10px;
+     margin-top: 7px;
+}
+.detailFlightIcon{
+     margin-right:12px;
+     transform: rotate(50deg);
+}
+.accordion{
+     background:none !important;
+     border:none;
+     box-shadow: none;
+}
+.detailBtns{
+     display:flex;
+     margin-bottom:10px;
+}
+.detailBtns button{
+     padding: 10px 5px;
+     font-size: 14px;
+     border-radius: 3px;
+     width: 102px;
+}
+.flightDIcon{
+     margin-right: 5px;
+     width: 20px;
+     height: 20px;
+     line-height: 20px;
+     background: #4AB449;
+     color: #fff;
+     display: block;
+     text-align: center;
+     border-radius: 50%;
+     
+
+
+}
+.flightIcon{
+     font-size: 12px;
+
+}
+.middleIcon{
+     transform: rotate(89deg);
+     color:#4AB449;
+}
+.line{
+     width: 100%;
+     margin-bottom: 20px;
+     margin-top: 40px;
+}
+.dollarIconWrap{
+     width: 15px;
+     height: 15px;
+     line-height: 15px;
+     text-align: center;
+     background: #4AB449;
+     display: block;
+     border-radius: 50%;
+     color: #fff;
+     margin-right: 5px;
+}
+.dollarIcon{
+     font-size:12px;
+}
+
+
+@media only screen and (max-width:600px){
+     .flightDetailInfo{
+          display:block;
+     }
+     .singleDetail{
+          margin-bottom:10px;
+     }
+     .airportDetail{
+          display:block;
+     }
+}

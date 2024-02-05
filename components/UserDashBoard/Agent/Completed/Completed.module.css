@@ -1,0 +1,59 @@
+.completedWrap{
+    width:100%;
+    margin:0 auto;
+}
+.informationHeading{
+    background: #19ABE3;
+    width: 100%;
+    padding: 3px 10px;
+    margin-bottom: 13px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.completed{
+    margin: 30px 20px;
+    background: #4AB449;
+    color: white;
+    padding: 30px;
+}
+
+.tableWrap td{
+    padding: 10px 0px;
+    font-size: 14px;
+   
+}
+
+.passengerInfo{
+    text-align: left;
+}
+
+
+.passengerInfo td{
+    font-size: 14px;
+    padding: 5px;
+}
+.passengerInformation{
+    width: 30%;
+    margin-right: 20px;
+}
+.passengerInformation1{
+    width: 30%;
+}
+
+.passengerInformations{
+    width: 40% !important;
+    margin-right:20px;
+}
+.informationHeading2, .informationHeading3{
+    background: #19ABE3;
+    width: 100%;
+    padding: 4px 10px;
+    margin-bottom: 11px;
+}
+.AgencyCancel{
+    width:50%;
+    margin-right:20px;
+}
+.AgencyCancel:nth-child(2){
+    margin-right:0px !important;
+}

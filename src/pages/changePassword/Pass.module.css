@@ -1,0 +1,54 @@
+.passWordWrap{
+     width:1440px;
+}
+.passwordImg{
+     position: absolute;
+     left: 38.06%;
+     right: 18.19%;
+     top: 56.46%;
+     bottom: 7.03%;
+}
+.passwordWrapa{
+     width: 635px;
+     height: 540px;
+     left: 563px;
+     top: 610px;
+     background: rgba(25, 171, 227, 0.3);
+     margin:0 auto;
+     text-align:center;
+     padding:30px;
+}
+.passwordInput{
+box-sizing: border-box;
+width: 472px;
+height: 66px;
+background: #E6F8FF;
+border: 1px solid rgba(25, 171, 227, 0.3);
+border-radius: 5px;
+padding-left:10px;
+}
+.updatePassword{
+     width: 350px;
+     height: 53px;
+     background: #26ADE2;
+     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+     border-radius: 5px;
+     color:white;
+     margin-top:20px;
+}
+
+@media only screen and (max-width:1024px){
+     .passWordWrap{
+          width:100%;
+     }
+}
+@media only screen and (max-width:768px){
+     .passWordWrap{
+          width:100%;
+     }
+}
+@media only screen and (max-width:500px){
+     .passWordWrap{
+          width:100%;
+     }
+}

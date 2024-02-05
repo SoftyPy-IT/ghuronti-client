@@ -1,0 +1,252 @@
+
+/* travel styling  */
+
+.travelFormWrap {
+  display: flex;
+  width: 847px;
+  margin: 0 auto;
+  margin-top: 51px;
+  justify-content: center;
+  align-items: center;
+}
+.travelFormDouble {
+  width: 420px;
+  height: 65px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-right: 5px;
+}
+
+.travelForm {
+  width: 420px;
+  height: 65px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 10px;
+  font-size: 14px;
+}
+.travelForm label {
+  font-size: 14px;
+  color: white;
+}
+.travelForm input {
+  width: 100%;
+  background: transparent;
+  font-size: 12px;
+}
+.singleTravel {
+  width: 50%;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  font-size: 12px;
+}
+.singleTravel input {
+  width: 100%;
+  background: transparent;
+  font-size: 12px;
+}
+
+.tourTrending {
+  background: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 280px !important;
+  margin-right: 20px;
+  padding-bottom: 100px;
+  margin-left: 10px;
+  height: 411px;
+  overflow: hidden;
+  text-align: center;
+  border-radius:5px;
+}
+.pricePackage span {
+  font-size: 14px;
+  color: #4ab449;
+}
+
+.bestPlaceHead {
+  width: 650px;
+  margin: 50px auto;
+  text-align: center;
+}
+.bestPlaceHead h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.bestPlaceHead p {
+  color: black;
+  line-height: 26px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.bestPlace {
+  background: #e5f8ff;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 10px;
+  align-items: center;
+}
+.swiperImg {
+  height: 245px !important;
+  transform: scale(1);
+}
+.swiperImg:hove {
+  height: 300px !important;
+  transform: scale(1.5);
+}
+.destination {
+  width: 1200px;
+  margin-left: 250px;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.pricePackage {
+  text-align: center;
+  padding: 0 3px;
+}
+.pricePackage h6 {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.tourDay {
+  background: #4ab449;
+  width: 25px;
+  display: block;
+  font-size: 10px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  position: absolute;
+  right: 37px;
+  color: white;
+  border-radius: 50%;
+  bottom: 2px;
+  color: white !important;
+}
+
+.viewDetailBtn button {
+  background: #4ab449;
+  place-content: center;
+  place-items: center;
+  margin-top: 27px;
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  width: 150px;
+  height: 29px;
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  .destination {
+    width: 100%;
+    margin-left: 30px;
+  }
+  .tourTrending {
+    width: 245px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .package {
+    top: 250px;
+  }
+  .package {
+    top: 194px;
+  }
+  .vissaSearchBar button {
+    width: 170px;
+  }
+  .travelFormWrap {
+    width: 100%;
+    margin-top: 1px;
+    flex-wrap: wrap;
+  }
+
+  .travelFormDouble {
+    width: 428px;
+    margin-top: 37px;
+  }
+  .travelForm {
+    width: 422px;
+    margin-top: 15px;
+    border-radius: 3px;
+  }
+
+  .singleTravel {
+    width: 208px;
+  }
+  .destination {
+    width: 100%;
+    margin-left: 50px;
+  }
+  .seeMoreDestination {
+    margin-right: 65px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  .travelForm,
+  .travelFormDouble {
+    height: 58px;
+  }
+  .package {
+    width: 328px;
+    top: 255px;
+  }
+  .travelFormDouble {
+    width: 371px;
+  }
+  .travelForm {
+    width: 93%;
+    border-radius: 0px;
+  }
+  .train {
+    margin-bottom: 35px;
+  }
+  .destination {
+    margin-left: 40px;
+  }
+
+
+  .tourTrending {
+    width: 80% !important;
+    margin-left: 3px !important;
+  }
+  .travelFormWrap {
+    margin-top: 25px;
+  }
+  .seeMoreDestination {
+    width: 125px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+ 
+  .travelForm {
+    width: 329px;
+  }
+  .travelFormWrap {
+    width: 100%;
+  }
+  .singleTravel {
+    width: 160px;
+    margin: 0 auto;
+  }
+  .destination {
+    margin-left: 47px;
+  }
+  .tourTrending {
+    margin-left: -2px !important;
+  }
+  .train {
+    margin-bottom: -55px;
+  }
+}
+
+

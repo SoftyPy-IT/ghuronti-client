@@ -1,0 +1,468 @@
+.sideBarWrap {
+  display: flex;
+    justify-content: center;
+}
+.sideBarLeft {
+  width: 247px;
+  transition: all 0.5s cubic-bezier(0.15, -0.02, 1, 1.02);
+  z-index:9999999 !important;
+  height:100vh;
+}
+.rightSideBarWrap, .rightSideWrap{
+  position:relative;
+  z-index: 99 !important;
+}
+.sidebar {
+  width: 37px;
+  transition: all 0.5s cubic-bezier(0.15, -0.02, 1, 1.02);
+  z-index:999 !important;
+}
+
+.rightSideBar {
+  width: 100%;
+  background-position: center;
+  background:fixed;
+  height:auto;
+  position: relative;
+  background-image: url(/_next/static/media/banner.f7be9e77.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100vw !important;
+  height:auto;
+  box-sizing: border-box;
+  background-position: center;
+}
+.rightSideBar:after{
+  position:absolute;
+  content:'';
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  width:100%;
+  height:100%;
+  background:black;
+  opacity: .2;
+  
+}
+.leftSideIconWrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.leftSideIconWrap p {
+  margin-bottom: 20px;
+  color: #fff !important;
+}
+.icon {
+  font-size: 22px !important;
+}
+.bookingHistory{
+  background: #4AB449 !important;
+  color:white !important;
+}
+.subAccordion{
+  width: 154px !important;
+  background: #4AB449 !important;
+  color: white !important;
+  text-align: left;
+  margin-left: -14px !important;
+}
+.ticketProcessing{
+  display: flex;
+  justify-content: space-between;
+}
+.ticketProcessing span{
+  font-size:14px !important;
+}
+.ticketSubMenu{
+  margin-left:30px !important;
+}
+.ticketSubMenu ul li{
+  font-size:12px !important;
+}
+
+/* admin dashboard right side styling  */
+.flightRightSide, .hotelSearchRightSideBara, .flightBook, .dashboardRight{
+  width:100% !important;
+  height:100dvh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+.profileTop {
+  width: 100%;
+  position:relative;
+}
+.rightSideTopBar {
+  width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 15px 20px;
+    background:#fff;
+}
+.hotelRightSideBar, .visaSearchRight{
+  width:100%;
+}
+.adminRightTopBara{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 15px 20px;
+  background:#fff;
+
+}
+.ticketListHead{
+  height: 58px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4AB449;
+  margin-bottom:10px;
+}
+
+.adminLeftInfo p {
+  color: #4AB449;
+  font-size: 14px;
+  margin-top: 3px;
+}
+.adminInfo{
+  margin-bottom:10px;
+}
+.adminInfo p{
+  color: white;
+  font-size: 13px;
+}
+.adminInfo strong{
+  font-size:14px;
+}
+.adminLeftInfo strong{
+  color: #4AB449;
+}
+
+.customerInfo {
+  color: white;
+  margin-bottom: 8px;
+}
+
+.customerInfo button {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+  width: 132px;
+  padding: 3px 0px;
+  transition: all 0.3s eaas;
+  transition: all 0.5s cubic-bezier(0.24, -0.01, 0.98, 1.11);
+  margin: 5px 0px;
+}
+.customerInfo button:hover {
+  border: 1px solid #fff;
+}
+.customerInfo small {
+  display: block;
+  margin: 5px 0px;
+  font-size: 11px !important;
+}
+.adminLeftInfo {
+  display: flex;
+  width: 32%;
+  justify-content: space-between;
+}
+.logoWrap {
+  width: 200px;
+  cursor: pointer;
+}
+
+.notification {
+  color: white;
+  font-size: 25px !important;
+  margin-top: -119px;
+  margin-left: 2px;
+}
+
+.menubar {
+  background: #4AB449 !important;
+}
+.searchBox,
+.dateBox,
+.passenger {
+  border: 1px solid #fff !important;
+}
+.removecity {
+  background: #4AB449;
+}
+.searchBtn {
+  border: 1px solid #fff !important;
+  transition: all 0.3s ease-in-out;
+  width: 213px !important;
+  padding: 14px 0px !important;
+  font-size: 14px !important;
+
+}
+.searchBtn:hover {
+  background: #4AB449;
+}
+.packageTour {
+  width: 100%;
+}
+
+.active {
+  background: #4AB449;
+  display: flex;
+  padding-left: 0px;
+  justify-content: space-between;
+  transition: all 0.5s ease-in-out;
+  position: fixed;
+  left: -190px;
+  z-index: 999 !important;
+}
+.iconsBarHide {
+  display: none;
+}
+
+.toolTip{
+  background: #4AB449;
+  width: 146px;
+  padding: 5px;
+  left: 228px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  top: 125px;
+  transition: all .5s cubic-bezier(0.11, -0.04, 0.96, 1.06);
+  font-size:12px;
+  display:none;
+  z-index: 9999999999 !important;
+  position:absolute;
+}
+.mainToolTip{
+  top:70px !important;
+  width:300px !important;
+   z-index:99999 !important;
+}
+.toolTip2{
+  top: 170px !important;
+  width: 161px !important;
+  z-index: 999999 !important;
+  position:absolute;
+}
+.toolTip3{
+top:215px;
+z-index: 999999999 !important;
+}
+.toolTip4{
+  top:257px;
+  z-index: 999999999 !important;
+}
+.toolTip5{
+  top:300px;
+  z-index: 999999999 !important;
+}
+.toolTip6{
+  top:340px;
+  z-index: 9999999999 !important;
+}
+.toolTip7{
+  top:380px;
+  z-index: 999999999 !important;
+}
+.toolTip8{
+  top:425px;
+  z-index: 9999999999 !important;
+}
+.toolTip9{
+  top:460px;
+}
+.toolTip10{
+  top:510px;
+}
+.toolTip11{
+  top:550px;
+}
+.toolTip12{
+  top:600px;
+}
+.showToolTip:hover .toolTip{
+display:block;
+transition: all .5s cubic-bezier(0.11, -0.04, 0.96, 1.06);
+z-index: 9999999999 !important;
+}
+
+.tabLeft{
+  margin-left: 307px !important;
+}
+
+/* dashboard left side styling  */
+.dashBoardLeftSide {
+  background: #4AB449;
+  width: 253px;
+  display: flex;
+  padding-left: 10px;
+  left: 0px;
+  justify-content: space-between;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  z-index: 999 !important;
+}
+.leftSideWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.bookingList ul {
+  margin: 0px;
+  padding: 0px !important;
+  margin-left: -35px;
+  margin-top: -14px;
+  font-size: 14px;
+}
+.bookingList ul li {
+  text-align: left;
+  margin-bottom: 6px;
+  width: 100% !important;
+  padding: 5px 0px;
+  transition: all 0.3s ease-in-out;
+}
+.bar {
+  background: #4AB449;
+  padding: 0px !important;
+  text-align: left !important;
+  width: 49px;
+  right: -71px;
+  top: 23px;
+  height: 46px;
+  line-height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -40px;
+  margin-top: 21px;
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+  transition: all .5s linear(-0.47 -53.68%, 1 100%);
+}
+.bar div{
+  position:relative;
+
+}
+.bar span {
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 3px;
+  display: block;
+  transition: all .5s linear(-0.47 -53.68%, 1 100%);
+}
+.bar1{
+  transform: rotate(-45deg);
+    position: absolute;
+    top: -2px;
+    left: -12px;
+    transition: all .5s linear(-0.47 -53.68%, 1 100%);
+}
+.bar2{
+  display: none;
+  position: absolute !important;
+  display: none !important;
+  transition: all .5s linear(-0.47 -53.68%, 1 100%);
+}
+.bar3{
+  transform: rotate(45deg);
+  position: absolute;
+  top: -2px;
+  right: -18px;
+  transition: all .5s linear(-0.47 -53.68%, 1 100%);
+}
+.bookingList ul li:hover {
+  background: #4AB449;
+  padding: 5px 5px;
+}
+.flightIcon {
+  transform: rotate(51deg);
+  font-size: 16px !important;
+  margin-right: 5px;
+}
+.flightIcons {
+  font-size: 16px !important;
+  margin-right: 5px;
+}
+
+.bookingList {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  padding-left: 20px;
+}
+
+.profileInfo {
+  text-align: left;
+  width: 100%;
+  margin-top: 30px;
+}
+.profileInfo span {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+}
+.profileInfoIcon {
+  color: white;
+}
+.bookHistory {
+  margin-left: -16px;
+}
+.bookHistory .historyIcon {
+  font-size: 22px !important;
+  margin-right: 2px;
+}
+.profileInfo li {
+  display: flex;
+  color: white;
+  margin-bottom: 20px;
+  text-align: left !important;
+  margin-left: 0;
+  padding: 0;
+}
+.userService {
+  margin-top: 230px;
+  margin-left: -30px;
+}
+
+/* Right side styling  */
+
+/* media query styling */
+@media only screen and (max-width: 768px) {
+  .sideBarWrap {
+    display: block;
+  }
+  .UserDashBoard_adminLeftInfo__razAu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+
+  .adminLeftInfo {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+.logoWrap {
+  width: 90%;
+  cursor: pointer;
+}
+
+
+
+}

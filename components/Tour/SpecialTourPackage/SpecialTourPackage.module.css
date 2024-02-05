@@ -1,0 +1,65 @@
+.tour{
+    margin-top:100px;
+    
+    }
+    .tourImgWrap{
+        width:100%;
+        height:300px;
+        box-sizing: border-box;
+       
+    }
+    .tourImg{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    }
+    .tourPackag{
+        margin-bottom:20px !important;
+    }
+    .pagination{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        justify-content:center;
+      }
+      
+      .paginationBtn button{
+        width: 35px;
+        height: 35px;
+        line-height: 30px;
+        border: 1px solid #19ABE3;
+        color: #19ABE3;
+        border-radius: 50%;
+        margin-right: 5px;
+        font-size: 15px;
+        transition:all .5s ease-in-out;
+        font-weight: bold;
+      
+      }
+      .paginationBtn button:hover{
+        background-color: #19ABE3;
+        color:white;
+      
+      }
+      .arrowLeft, .arrowRight{
+        color: #19ABE3 !important;
+        font-size: 15px !important;
+      }
+      .arrowLeft:hover, .arrowRight:hover{
+        color:white !important;
+      }
+  
+      .seeMorIcon{
+        color:#fff !important;
+      }
+    @media only screen and (max-width:768px){
+        .tour{
+            margin-top: 150px;
+        }
+    }
+    @media only screen and (max-width:500px){
+        .tour{
+            margin-top: 100px;
+        }
+         
+    }

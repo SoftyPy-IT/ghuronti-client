@@ -1,0 +1,23 @@
+.umraHeroBoxMain{
+    background-image: linear-gradient( 168deg,#19abe3, #4AB449) !important;
+    position: relative;
+    z-index: 0 !important;
+}
+.activeMenuList{
+    display: flex;
+    z-index: 999 IM !important;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+   }
+   .menuList{
+    display: flex;
+    z-index: 999 IM !important;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    background: #19ABE3;
+    padding: 15px 20px;
+    border-radius: 10px;
+   }

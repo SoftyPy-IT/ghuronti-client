@@ -1,0 +1,130 @@
+.signUpAgentWrap {
+  width: 100vw;
+  padding: 30px;
+}
+.signUpAgent{
+  display: flex;
+  justify-content: space-between;
+}
+.signUpAgenLeft{
+  width:300px;
+}
+.agentImg{
+  width:100%;
+}
+.formControl{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.loginInput {
+  width: 472px;
+  height: 45px;
+  background: #e6f8ff;
+  border: 1px solid #4AB449;
+  border-radius: 5px;
+  padding: 10px;
+}
+.loginInput::placeholder{
+  color:black !important;
+}
+.fileUpload{
+    height: 40px;
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all .5 ease-in-out;
+    border: 1px solid #4AB449;
+    transition: all .5s cubic-bezier(0, -0.04, 0.99, 1.01);
+}
+.fileUpload:hover{
+  background: #4AB449;
+  color:white;
+}
+.fileUpload:hover .uploadIcon{
+  color:white !important;
+}
+.uploadIcon{
+  font-size: 25px;
+  margin-right: 5px;
+  color:#4AB449 !important;
+  transition: all .5s cubic-bezier(0, -0.04, 0.99, 1.01);
+}
+.loginBtn {
+  width: 295px;
+  height: 45px;
+  background: #4ab449;
+  border-radius: 50px;
+  color: white;
+  transition: all .5s ease;
+}
+.loginLabel{
+  position:absolute;
+  left:0;
+  font-size:14px;
+}
+.loginBtn:hover{
+  background:#26ade2;
+}
+.devided {
+  width: 206px;
+  height: 0px;
+  border: 2px solid #b0b8ba;
+}
+.loginBtn2 {
+  width: 323px;
+  height: 53px;
+  background: #26ade2;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+}
+.loginBtn3 {
+  position: absolute;
+  width: 323px;
+  height: 53px;
+  background: #ffffff;
+  border: 1px solid rgba(74, 180, 73, 0.5);
+  box-shadow: 0px 2px 4px rgba(25, 171, 227, 0.3);
+  border-radius: 5px;
+  color: #4ab449;
+}
+
+@media only screen and (max-width: 1024px) {
+  .signUpAgentWrap {
+    width: 100%;
+  }
+  .signUpAgent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media only screen and (max-width: 768px) {
+  .signUpAgentWrap {
+    width: 100%;
+  }
+  .formControl {
+    flex-direction: column;
+}
+.fileUpload {
+  width: 96%;
+}
+
+
+}
+@media only screen and (max-width: 500px) {
+  .signUpAgentWrap {
+    width: 100%;
+  }
+  .loginInput {
+    width: 100%;
+  }
+  .fileUpload {
+    width: 100%;
+  }
+}

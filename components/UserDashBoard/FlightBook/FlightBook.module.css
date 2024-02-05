@@ -1,0 +1,302 @@
+.flightInfo {
+  width: 100%;
+  height: 58px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  border: 1px solid #4ab449;
+  box-shadow: rgba(22, 241, 59, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  z-index: 99 !important;
+  position: relative;
+  background: radial-gradient(black, transparent);
+  background: #19abe3;
+  justify-content: center;
+}
+.flightDetailCard {
+  width: 1200px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+.flightHeading {
+  display: flex;
+  justify-content: space-between;
+}
+.grossFireIcon {
+  color: #4ab449 !important;
+  font-size: 17px !important;
+}
+.flightDetailWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.flightDetail {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.priceBreakDown {
+  background: #19abe3;
+  width: 153px;
+  height: 28px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  border-radius: 3px;
+  align-items: center;
+  font-size: 14px;
+  float: right;
+}
+.singleFlightLeft{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.priceIcon {
+  font-size: 18px !important;
+  margin-left: 5px;
+}
+.onholding {
+  display: flex;
+  width: 43%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.onholding p,
+.onholding {
+  font-size: 14px;
+  color: #4ab449;
+}
+.flightDetailBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #4ab449;
+  font-weight: bold;
+}
+.detailCon {
+  color: #4ab449 !important;
+  font-size: 18px !important;
+}
+.priceBase {
+  display: flex;
+  justify-content: space-between;
+}
+.travelerPriceWrap {
+  padding: 20px;
+  width: 100%;
+  margin-top: 45px;
+  box-shadow: #4ab449 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 5px;
+}
+.travellerPrice {
+  text-align: right;
+}
+.travellerPrice strong {
+  font-size: 14px;
+}
+.leftsidePrice {
+  margin-right: 110px;
+  text-align: left;
+}
+.leftsidePrice p,
+.rightSidePrice p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.line {
+  width: 100%;
+  margin: 20px 0px;
+  background: #4ab449;
+}
+.hide {
+  height: 0px;
+  display: none;
+  transition: all 0.5s cubic-bezier(0.2, 0.32, 1, 1.13);
+}
+.show {
+  height: 100%;
+  display: block;
+  transition: all 0.5s cubic-bezier(0.2, 0.32, 1, 1.13);
+}
+.detailFlighCard {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
+  margin-top: 22px;
+}
+.singleFlight {
+  display: flex;
+  justify-content: space-between;
+}
+.singleFlight p {
+  font-size: 14px;
+}
+
+.passengersDetailCard {
+  width: 80%;
+  margin: 0 auto;
+}
+.passengerField {
+  width: 376px;
+  border-bottom: 1px solid #4ab449;
+}
+.specialField {
+  width: 100%;
+  border-bottom: 1px solid #4ab449;
+}
+.labelField {
+  font-size: 12px;
+}
+.bookTicketBtn {
+  width: 142px;
+  background: #4ab449;
+  color: white;
+  padding: 5px 0px;
+  border-radius: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-top: 13px;
+}
+.readingPolicy {
+  width: 100%;
+  background-color: #e6f8ff;
+  padding: 20px;
+}
+.readingPolicy p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.policyRule {
+}
+.policyWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.singlePolicy {
+  width: 100%;
+  text-align: left;
+  padding: 13px;
+
+  border-radius: 10px;
+}
+.singlePolicy p {
+  font-size: 14px;
+  text-transform:capitalize;
+}
+.singlePassenger{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width:1024px){
+    .flightDetailCard {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:768px){
+    .passengersDetailCard {
+        width: 100%;
+    }
+    .singlePassenger{
+        display: block;
+    }
+    .passengerField {
+        width: 100%;
+      }
+      .singlePolicy p {
+        font-size: 12px;
+    }
+    .onholding {
+       
+    width: 100%;
+    margin-top: 20px;
+
+    }
+    .flightDetail{
+        margin-top: 20px;
+    }
+  
+
+
+}
+@media only screen and (max-width:500px){
+    .singlePolicy {
+        margin-bottom: 20px;
+        padding:0px;
+    }
+    .flightDetailWrap {
+        display: block;
+    }
+    .flightDetail{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        font-size: 15px;
+        align-items: center;
+    }
+    .priceBreakDown {
+        margin: 10px 0px;
+        float: none;
+        height: 35px;
+    }
+    .priceBreakDown button{
+        width: 70%;
+        font-size: 14px;
+    }
+    .onholding{
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+        margin-top: 13px;
+    }
+    .flightDetailCard {
+        width: 95%;
+    }
+    .flightDetailBtn button{
+        width: 100%;
+        margin-top: 10px;
+      }
+      .singleFlight {
+    font-size: 14px;
+    flex-wrap: wrap;
+    }
+    .detailFlighCard {
+      padding: 30px 20px;
+  }
+  .singleFlightLeft{
+    justify-content: space-between;
+    display: flex;
+    width: 320px;
+    margin-bottom: 17px;
+    margin-left: -6px;
+  }
+  .singleFlight p {
+    font-size: 12px;
+}
+.singleFlight strong {
+  font-size: 12px;
+}
+
+
+
+}
+@media only screen and (max-width:400px){
+  .singleFlightLeft {
+    width: 285px;
+}
+
+
+
+}

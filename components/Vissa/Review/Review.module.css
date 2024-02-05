@@ -1,0 +1,40 @@
+.swiperSliderWrap{
+  max-width: 1200px;
+  margin:0 auto;
+}
+
+.swiperSlide {
+  width: 320px !important;
+  height:420px !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-size: cover;
+  filter:blur(4px);
+  background:#fff;
+  padding:30px;
+  padding-top:40px;
+  border-radius: 10px;
+  background-position: cener;
+ 
+}
+.testimonialBox {
+  position: relative;
+  width: 100%;
+
+}
+.quoteIcon{
+  font-size:45px;
+  color:#fff;
+}
+.swiperImg{
+  width:80px;
+  height:80px;
+  border-radius: 100%;
+  border:1px solid #ddd;
+  object-fit: cover;
+  margin-right:5px;
+}
+@media only screen and (max-width:1024px){
+  .swiperSliderWrap{
+    max-width: 100%;
+  }
+}

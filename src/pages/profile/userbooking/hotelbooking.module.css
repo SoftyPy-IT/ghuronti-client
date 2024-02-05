@@ -1,0 +1,100 @@
+.profileWrap {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.userProfileLeftSide {
+  grid-column: span 3 / span 3;
+}
+.userProfileRightSide {
+  grid-column: span 9 / span 9;
+}
+
+/* save card styling */
+.saveCard {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/* managae accoun styling  */
+.deleteBtn {
+  background: #26ade2;
+  color: white;
+  padding: 10px 33px;
+  font-size: 21px;
+  margin-top: 31px;
+}
+
+.bookingWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  border-top: 1px solid #4AB449;
+  border-bottom: 1px solid #4AB449;
+  padding: 10px;
+}
+.bookingWrap button {
+  color: black !important;
+  margin-left: 5px;
+}
+.bookingHistory {
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+.bookingHistory button {
+  background: transparent;
+}
+.userHotelBookingInfoWrap {
+  width: 100%;
+  margin: 0 auto;
+}
+.userHotelBookingInfo {
+  width: 90%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 32px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left {
+  width: 85%;
+}
+.pending {
+  width: 15%;
+  border-left: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payHistory {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userContactInfo {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: #e9f6e9;
+  padding: 12px 8px;
+  margin-top: -31px;
+}
+.userContactInfo small {
+  font-size: 12px;
+}
+.userContactInfo span {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+  .userProfileLeftSide {
+    grid-column: span 12 / span 12;
+  }
+  .userProfileRightSide {
+    grid-column: span 12 / span 12;
+  }
+ 
+}

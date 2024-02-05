@@ -1,0 +1,12 @@
+.alluserList th {
+  background-color: #e6f8ff !important;
+  color: black !important;
+}
+.modal {
+  width: 1200px !important;
+  border-radius: 20px !important;
+  padding: 50px !important;
+}
+.employModalWrap {
+  padding: 50px;
+}

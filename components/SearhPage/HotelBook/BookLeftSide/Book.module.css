@@ -1,0 +1,152 @@
+.dateCard {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 228px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.dateCard p {
+  font-size: 13px;
+}
+.dateCard small {
+  font-size: 10px;
+}
+.hotelName {
+  width: 100%;
+  background: #4ab449;
+  color: white;
+  padding: 5px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.dateIcon {
+  color: #4ab449;
+  font-size: 23px;
+}
+.passengerInformation {
+  margin: 40px 0px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 20px;
+}
+.passengerInfo label {
+  font-size: 12px;
+}
+.passengerInfo select option {
+  font-size: 12px;
+}
+.formControl {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 25px 0px;
+}
+
+.passengerInfo input::placeholder,
+.guestField input::placeholder {
+  color: black !important;
+}
+.guestWrap {
+  display: flex;
+  padding: 30px 0px;
+}
+.totalGuest {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 14px;
+  width: 250px;
+  justify-content: space-between;
+}
+.totalGuest select {
+  width: 55px;
+  border: 1px solid #ddd;
+  height: 41px;
+  border-radius: 3px;
+  color: black;
+  padding: 0px 5px;
+}
+.line {
+  width: 2px;
+  height: 50px;
+  background: #ddd;
+}
+
+.stayInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.stayInfo strong,
+.stayInfo small {
+  font-size: 12px;
+}
+.stayInfo p {
+  font-size: 14px;
+}
+
+.guestField {
+  width: 100%;
+}
+.guestField input,
+.passengerField {
+  width: 45%;
+  margin-right: 15px;
+  border: 1px solid #4ab449;
+  margin-right: 10px;
+  height: 45px;
+  padding-left: 8px;
+  border-radius: 5px;
+}
+.passengerField {
+  width: 380px;
+}
+.guestInfo {
+  margin: 20px 0px;
+}
+.guestInfo label {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+  .passengerField {
+    width: 300px;
+    margin-bottom: 5px;
+  }
+  .formControl {
+    margin: 10px 0px;
+  }
+  .guestWrap {
+    display: flex;
+    padding: 8px 0px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .formControl {
+    display: block;
+    margin: 10px 0px;
+  }
+  .guestWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Book_passengerField__kcVjx {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .passengerField {
+    width: 100%;
+  }
+  .guestField input {
+    width: 42%;
+  }
+}

@@ -1,0 +1,142 @@
+.visa{
+    position: relative;
+    z-index: 999 !important;
+    background: #E6F8FF;
+    padding: 50px;
+    margin: 50px;
+    color: black;
+}
+.visaDetailsWrap{
+    margin-top: 12px;
+    width:1150px;
+
+    
+}
+.showDetailBtn{
+    cursor: pointer;
+    background: #4AB449;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 74px;
+    font-size: 15px;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 2px 0px;
+}
+.allCoasInfo{
+    width: 1150px;
+    background: #19ABE3;
+    height: 160px;
+    padding: 10px;
+    margin-top: 10px;
+    transition:all .5s ease-in-out;
+}
+.allCoasInfo table{
+    width:100%;
+}
+.allCoasInfo table th{
+    background: #06671D;
+    color: white;
+    padding: 5px 0px;
+}
+.allCoasInfo table td{
+    color:white;
+    padding-top:5px;
+}
+.allCoasInfo table tr{
+    text-align:center;
+    
+}
+.visaType{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.downloadPdf{
+    width: 200px;
+    padding: 4px 0px;
+    background-image: linear-gradient(216deg, #0a5209, #1f8cb5 ) !important;
+    color: white;
+
+}
+
+.visaLocation{
+    width: 200px;
+    background: #19ABE3;
+    margin-top: 20px;
+    padding: 10px;
+}
+.coastHalf{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    font-size: 14px;
+
+}
+.coastHalf span{
+    width: 15.66%;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 5px;
+
+}
+
+
+
+.detailHalf{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #19ABE3;
+    color: #fff;
+    padding: 5px 0px;
+    font-size: 16px;
+}
+.detailHalf span{
+    width: 15.66%;
+    overflow: hidden;
+    text-align: center;
+    padding-left:5px;
+
+}
+.pricInfo{
+    width:1150px;
+}
+.priceInfo{
+    width: 380px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.selectedProfession{
+    margin-top:50px;
+}
+.professionType{
+    
+    background: #06671D;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+
+}
+
+
+.visaRule ul li{
+    margin-bottom: 20px;
+    line-height: 30px;
+    display: flex;
+
+}
+.ruleIcon{
+    color: #19ABE3 !important;
+    margin-right: 12px;
+}

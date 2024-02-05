@@ -1,0 +1,262 @@
+.flightBookingTo {
+  width: 100%;
+  height: 60px;
+  padding: 0px 88px;
+  display: flex;
+  align-items: center;
+
+}
+.fTopBar {
+  display: flex;
+  align-items: center;
+}
+.topIcon {
+  font-size: 18px;
+  color: #4ab449;
+  font-weight: bold;
+}
+.fTopBar span {
+  font-size: 14px;
+  margin-right: 7px;
+  font-weight: bold;
+}
+.profileWrap {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.userProfileLeftSide {
+  grid-column: span 3 / span 3;
+}
+.userProfileRightSide {
+  grid-column: span 9 / span 9;
+  padding: 0px 50px;
+}
+
+/* save card styling */
+.saveCard {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.deleteBtn {
+  background: #26ade2;
+  color: white;
+  padding: 10px 33px;
+  font-size: 21px;
+  margin-top: 31px;
+}
+
+.bookingWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 10px 50px;
+  color: black !important;
+  border-bottom: 1px solid #4ab449;
+  width: 90%;
+  margin: 24px auto;
+  margin-top: 40px
+}
+.bookingWrap button {
+  color: black !important;
+  margin-left: 10px;
+}
+.bookingHistory {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.bookingHistory button {
+  background: transparent;
+}
+
+.userFlightBookingInfoWrap {
+  width: 90%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px;
+  margin: 0px auto;
+  padding: 25px;
+}
+.bookingInfoWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.bookingInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.leftSideBook {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightSide {
+  width: 35%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.traveler{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:12px;
+}
+.travelerDate{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:12px;
+}
+.bookingInfo p {
+  font-size: 12px;
+}
+.flightInfo {
+  display: flex;
+  justify-content: space-between;
+  background: #e9f6e9;
+  padding: 40px 20px;
+  margin-top: 30px;
+}
+
+.flightInfo p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.payment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background: #19abe3;
+  padding: 10px;
+}
+.payment button {
+  color: white;
+  font-size: 12px;
+  background: #4ab449;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.flightBooking{
+  width:89%;
+  padding:0px 20px;
+  margin-top:30px;
+  margin:0 auto;
+  padding-top:30px;
+}
+.detailBtnGroup{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.detailBtnGroup button{
+  margin-right: 10px;
+  background: transparent;
+  color: #19abe3;
+  border: 1px solid #19abe3;
+  font-size: 14px;
+  transition: all .3s ease-in-out;
+  margin-bottom: 8px;
+  width: 147px;
+  padding: 10px 5px;
+}
+.detailBtnGroup button:hover{
+  background:#4ab449;
+  color:#fff;
+  border:1px solid #4ab449;
+}
+.payments{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.payments span{
+  margin-right:10px;
+  display: block;
+}
+.payments strong{
+  color:#4AB449;
+}
+.dollars{
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background: #4AB449;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  margin-right: 6px;
+}
+.dollarIcons{
+  font-size: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .userProfileLeftSide {
+    grid-column: span 12 / span 12;
+  }
+  .userProfileRightSide {
+    grid-column: span 12 / span 12;
+  }
+  .deleteBtn {
+    margin-bottom: 25px;
+  }
+  .flightInfoWrap {
+    padding-left: 24px;
+}
+.flightBookingTo {
+  padding: 0px 47px;
+}
+
+
+
+}
+
+@media only screen and (max-width:600px){
+  .flightBookingTo {
+    padding: 0px 18px;
+    display: flex;
+    align-items: unset;
+}
+.fTopBar {
+  flex-wrap: wrap;
+    margin-top: 20px;
+}
+.userProfileRightSide {
+  padding: 0px 0px !important;
+}
+.traveler{
+  display:block;
+}
+.travelerDate{
+  display: block;
+}
+.bookingWrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   padding: 10px 50px;
+  border-bottom:none;
+  margin: 10px auto;
+  margin-top: 0px;
+}
+.none{
+  display:none;
+}
+.bookingHistory {
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.flightBooking{
+  padding-bottom: 50px;
+}
+
+}

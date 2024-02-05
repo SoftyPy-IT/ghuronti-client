@@ -1,0 +1,116 @@
+.missionWrap {
+  width: 100vw;
+  margin: 80px auto;
+}
+.missionBox {
+  width: 350px;
+  background: #d3f3e4;
+  height: 360px;
+  text-align: center;
+  position: relative;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 45px;
+  box-shadow: #4AB449 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius:5px;
+}
+.vissionBox1 {
+  margin-right: 35px;
+}
+.vissionBox2 {
+  margin-left: 35px;
+}
+
+.missionText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 45px;
+  text-align: left;
+  color: #092e3d;
+  padding-left: 15px;
+  padding-top: 15px;
+  position: absolute;
+  top: 6px;
+}
+.vission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.missionBox p {
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #092e3d;
+  left: 54%;
+  top: 52%;
+  text-align: justify;
+  transform: translate(-60%, -50%);
+  -webkit-transform: translate(-60%, -50%);
+  -moz-transform: translate(-60%, -50%);
+  -ms-transform: translate(-60%, -50%);
+  -o-transform: translate(-60%, -50%);
+}
+@media only screen and (max-width: 1024px) {
+  .missionWrap {
+    width: 100%;
+  }
+  .missionBox {
+    overflow: hidden;
+    height: 370px;
+    
+  }
+
+  .missionBox img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .missionBox p {
+    left: 54%;
+    top: 48%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .missionWrap {
+    width: 100%;
+  }
+  .vission {
+    display: block;
+  }
+
+  .missionText {
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .missionBox p {
+    left: 54%;
+    top: 41%;
+  }
+  .missionBox {
+    overflow: hidden;
+    height: 450px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .missionBox {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .missionWrap {
+    width: 100%;
+  }
+  .missionBox {
+    width: 85%;
+    height: 300px;
+  }
+}

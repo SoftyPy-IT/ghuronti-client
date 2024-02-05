@@ -1,0 +1,17 @@
+.visaRequirment{
+    width:100%;
+}
+.visaRequirmentImg{
+    height:400px;
+    width:100%;
+}
+.requireImg{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.checkIcon{
+    font-size: 20px !important;
+    color:#4AB449 !important;
+    margin-right:5px;
+}

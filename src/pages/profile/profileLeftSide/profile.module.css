@@ -1,0 +1,27 @@
+.userProfileLeftSide {
+  display: flex;
+  justify-content: center;
+}
+
+
+.userInfoList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    display: grid;
+    padding: 0px 0px 10px 0px;
+    border: 1px solid #ddd;
+    
+}
+.userInfoList li
+
+{
+  margin-bottom: 10px;;
+}
+
+
+.bookingMenu {
+  display: none;
+}
+

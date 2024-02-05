@@ -1,0 +1,19 @@
+.termCondition {
+  width: 100vw;
+  background: rgba(230, 248, 255, 0.7);
+  margin: 0 auto;
+}
+
+.termCondition p,
+.termCondition li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 10px auto;
+  color: #092e3d;
+}
+.termCondition ul li {
+  list-style-type: circle;
+}

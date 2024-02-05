@@ -1,0 +1,559 @@
+/* hotel banner styling */
+.banner {
+  width: 100vw !important;
+  box-sizing: border-box;
+}
+.bannerWrap {
+  position: relative;
+  background-image: url(/_next/static/media/banner.f7be9e77.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100vw !important;
+  height: 450px;
+  box-sizing: border-box;
+  background-position: center;
+  margin-bottom: 112px;
+}
+
+.bannerWrap h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 22px;
+}
+.heroBoxMain {
+  width: 1200px;
+  height: 385px;
+  background: #c6e8f1 0.6;
+  z-index: 9999 !important;
+  margin: 0 auto;
+  background: #19abe3;
+  border-radius: 37px;
+  position: relative;
+  top: 28px;
+  overflow: hidden;
+}
+
+.calendarTow {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -186px;
+  z-index: 99999 !important;
+}
+.package,
+.package2,
+.package3,
+.package4 {
+  width: 415px;
+  height: 60px;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: white;
+  padding: 10px;
+}
+.package input,
+.package2 input,
+.package3 input,
+.package4 input,
+.date input,
+.date2 input {
+  background: transparent;
+  width: 100%;
+  color: white;
+}
+.date {
+  position: absolute;
+  top: 187px;
+  left: 134px;
+  height: 60px;
+  width: 207px;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid #ddd;
+}
+.date2 {
+  position: absolute;
+  top: 187px;
+  left: 342px;
+  height: 60px;
+  width: 207px;
+  background: transparent;
+  color: white;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  font-size: 16px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #fff;
+}
+.date2 h4 {
+  font-size: 14px;
+}
+
+.calendarInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.calendarInput input {
+  font-size: 12px !important;
+  cursor: pointer;
+}
+
+.calendarIcon {
+  font-size: 22px !important;
+}
+
+.calendar {
+  position: absolute;
+  z-index: 99 !important;
+}
+.package {
+  top: 100px;
+  left: 134px;
+}
+
+.package2 {
+  right: 134px;
+  top: 100px;
+}
+
+.package3 {
+  top: 187px;
+  left: 125px;
+}
+.package4 {
+  top: 187px;
+  right: 134px;
+}
+.package,
+.package2 h4 {
+  font-size: 14px;
+}
+.packageBtn {
+  border-bottom: 2px solid #4ab449;
+}
+.packageDate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroBoxBtn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 292px;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 8px 0px;
+  border: 1px solid #fff;
+  width: 210px;
+  background-image: linear-gradient(90deg, #4ab449, #19abe3);
+  transition: al 0.5s ease-in-out;
+}
+.heroBoxBtn:hover {
+  background-image: linear-gradient(90deg, #19abe3, #4ab449);
+}
+
+/* menu styling  */
+
+.wrapMenu {
+  z-index: 999 !important;
+  display: flex;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background: #4ab449;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #fff;
+  z-index: 99;
+  font-size: 16px;
+  position: relative;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+.activeMenu {
+  border-right: none;
+  background: #19abe3 !important;
+}
+
+.firstChild {
+  border-top-left-radius: 17px !important;
+  padding-left: 25px;
+}
+.lastChild {
+  border-right: 1px solid #fff !important;
+  border-top-right-radius: 17px !important;
+}
+
+.menu li P {
+  z-index: 999 !important;
+}
+
+.trendingHead {
+  width: 800px;
+  margin: 50px auto;
+}
+.mySwiper {
+  overflow: hidden;
+}
+
+
+
+.mobileMenuWraps {
+  display: none;
+}
+.showModalIcon {
+  font-size: 25px;
+  margin-top: 17px;
+  cursor: pointer;
+}
+.groupIcon {
+  color: white !important;
+  font-size: 30px;
+  margin-right: 13px;
+}
+.guestRoom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hotelModal {
+  background-image: linear-gradient(168deg, #19abe3, #4ab449) !important;
+  color: white;
+  width: 405px;
+  padding-bottom: 46px;
+  margin-right: 260px;
+  margin-top: 220px;
+}
+.hotelModalCloseBtn {
+  color: white;
+  width: 32px;
+  font-size: 24px;
+}
+.guestRoomWrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.adultChildWrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.adultIncrementDecrement,
+.childIncrementDecrement {
+  display: flex;
+  justify-content: space-between;
+  width: 144px;
+  border: 1px solid #ddd;
+  padding: 7px 15px;
+}
+.roomSelect {
+  width: 293px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin: 0 auto;
+  display: flex;
+  background-image: linear-gradient(168deg, #19abe3, #4ab449) !important;
+  color: white;
+}
+.roomSelect option {
+  color: white !important;
+  background: #169acc !important;
+}
+.adultIncrementDecrement small,
+.childIncrementDecrement small {
+  font-size: 20px;
+  cursor: pointer;
+}
+.childIncrementDecrement {
+  margin-left: 5px;
+}
+.package select,
+.package2 select {
+  width: 100%;
+  background-color: transparent;
+}
+.package select option,
+.package2 select option {
+  background: #169acc;
+  color: white;
+}
+.mobileMenuIcon {
+  transform: rotate(50deg);
+}
+.mobileMenuIcons,
+.mobileMenuIcon {
+  font-size: 30px !important;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .heroBoxMain {
+    width: 95%;
+  }
+
+  .package,
+  .date {
+    left: 70px;
+  }
+  .package2,
+  .package4 {
+    right: 70px;
+  }
+
+  .date2 {
+    left: 278px;
+  }
+
+  .trending {
+    height: 446px;
+    width: 257px;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+  .trending img {
+    width: 100% !important;
+  }
+  .trendingHead {
+    margin-top: 80px;
+    margin-bottom: 15px;
+  }
+  .bannerWrap h2 {
+    font-size: 30px;
+  }
+  .hotelModal {
+    margin-right: 84px;
+    margin-top: 83px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bannerWrap h2 {
+    font-size: 25px;
+  }
+  .heroBoxMain {
+    height: 440px;
+    width: 93%;
+  }
+  .desktopMenu {
+    display: none;
+  }
+
+  .mobileMenuWraps {
+    display: block;
+  }
+
+  .wrapMenu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menu {
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+  .menu li {
+    height: 100%;
+    width: 100%;
+    border: none;
+  }
+  .lastChild {
+    border-right: none !important;
+  }
+
+  .package {
+    top: 250px;
+    left: 85px;
+  }
+  .heroBoxBtn {
+    top: 299px;
+  }
+  .bannerWrap h2 {
+    margin-bottom: 10px;
+  }
+  .bannerWrap {
+    height: 490px;
+  }
+
+  .trending {
+    height: 471px;
+  }
+  .package2 {
+    right: 85px;
+  }
+  .package2,
+  .package {
+    top: 120px;
+    width: 269px;
+    border-radius: 3px;
+  }
+  .package4 {
+    width: 269px;
+    top: 192px;
+    right: 85px;
+    border-radius: 3px;
+  }
+  .date2 {
+    top: 192px;
+    left: 220px;
+    width: 135px;
+    border-left: none;
+    border-radius: 3px;
+  }
+  .date {
+    left: 85px;
+    top: 192px;
+    width: 135px;
+    border-radius: 3px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapMenu {
+    justify-content: space-between !important;
+    padding: 0px 0px;
+  }
+  .bannerWrap h2 {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .firstChild {
+    border-top-left-radius: 0px !important;
+    padding-left: 0px;
+  }
+  .lastChild {
+    margin-left: 113px;
+  }
+  .menu li {
+    font-size: 14px;
+  }
+  .menu {
+    padding-top: 0px;
+    display: block;
+  }
+
+  .trendingHead {
+    width: 100%;
+    padding: 10px;
+  }
+  .bannerWrap {
+    height: 508px;
+  }
+  .heroBoxMain {
+    height: 430px;
+    top: 17px;
+  }
+  .heroBoxBtn {
+    top: 338px;
+    width: 195px;
+    margin-top: 13px;
+  }
+
+  .package4 {
+    top: 274px;
+    right: 38px;
+    width: 80%;
+    height: 53px;
+    padding: 5px;
+    font-size: 13px;
+  }
+  .package {
+    top: 275px;
+    width: 80%;
+  }
+  .package2 {
+    top: 300px;
+    width: 80%;
+  }
+
+  .package {
+    top: 88px;
+    width: 80%;
+    left: 41px;
+    height: 53px;
+    padding: 5px;
+    font-size: 13px;
+  }
+  .date,
+  .date2 {
+    top: 207px;
+    width: 40.3%;
+    left: 41px;
+    font-size: 13px;
+  }
+  .package2 {
+    top: 147px;
+    width: 80%;
+    left: 41px;
+    padding-left: 5px;
+    height: 53px;
+    padding: 5px;
+    font-size: 13px;
+  }
+  .date input,
+  .date2 input {
+    width: 100%;
+  }
+  .date2 {
+    position: absolute;
+    left: 198px;
+    border-left: none;
+  }
+
+  .hotelModal {
+    margin-right: 34px;
+    margin-top: 91px;
+    width: 83% !important;
+  }
+  .mobileMenuIcons,
+  .mobileMenuIcon {
+    font-size: 20px !important;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapMenu {
+    padding: 0px 0px;
+  }
+
+  .date2 {
+    left: 179px;
+  }
+
+  .package4 {
+    right: 30px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .date2 {
+    left: 171px;
+  }
+  .package4 {
+    right: 24px;
+  }
+}

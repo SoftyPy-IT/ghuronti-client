@@ -1,0 +1,412 @@
+/* hotel banner styling */
+.banner {
+  width: 100vw !important;
+  box-sizing: border-box;
+}
+.bannerWrap {
+  position: relative;
+  background-image: url(/_next/static/media/banner.f7be9e77.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100vw !important;
+  height: 360px;
+  box-sizing: border-box;
+  background-position: center;
+  margin-bottom: 71px;
+}
+
+.bannerWrap h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 24px;
+}
+.heroBoxMain {
+  width: 1200px;
+  height: 300px;
+  background:#19ABE3;
+  z-index: 9999 !important;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 37px;
+  position: relative;
+  top: 26px;
+  overflow: hidden;
+}
+
+
+
+
+.calendarTow, .calendarThree{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top:0px;
+  z-index: 99999 !important;
+}
+.calendarThree{
+  top: -193px !important;
+}
+
+.packageBtn {
+  border-bottom: 2px solid #4ab449;
+}
+.packageWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.formControl{
+  width: 257px;
+  height: 65px;
+  border: 1px solid #fff;
+  margin-right: 5px;
+  border-radius: 3px;
+  padding: 5px;
+  color: white;
+}
+.formControl input{
+  background:transparent;
+}
+
+.calendarIcon{
+  font-size: 22px !important;
+}
+
+.singleForm{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.heroBoxBtn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 203px;
+  background-image: linear-gradient(90deg, #0BB811, #19ABE3);
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  transition: all .5s cubic-bezier(0.32, 0.25, 0.5, 0.5);
+  border: 1px solid #fff;
+}
+.heroBoxBtn:hover{
+  background-image: linear-gradient(90deg,  #19ABE3, #0BB811);
+
+}
+/* menu styling  */
+.wrapMenu{
+  z-index: 999 !important;
+  display: flex;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  background: #4AB449;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #fff;
+  z-index: 99;
+  font-size:16px;
+  position:relative;
+   
+ }
+ .menu li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+
+ .activeMenu{
+  border-right:none;
+  background:#19ABE3 !important;
+ }
+
+.firstChild{
+  border-top-left-radius: 17px !important;
+    padding-left: 25px;
+}
+ .lastChild{
+  border-right: 1px solid #fff !important;
+  border-top-right-radius: 39px !important;
+ }
+
+
+.menu li P {
+  z-index: 999 !important;
+}
+.activeMenuList{
+  display: flex;
+  z-index: 999 IM !important;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 10px;
+ }
+ .menuList{
+  display: flex;
+  z-index: 999 IM !important;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  background: #19ABE3;
+  padding: 15px 20px;
+  border-radius: 10px;
+ }
+ .mobileMenuWraps{
+  display: none;
+ }
+
+/* modal styling */
+ .hotelModal{
+  background-image: linear-gradient( 168deg,#19abe3, #4AB449) !important;
+  color: white;
+  width: 405px;
+  padding-bottom: 46px;
+  margin-right: 260px;
+  margin-top: 220px;
+}
+.hotelModalCloseBtn{
+  color: white;
+  width: 32px;
+  font-size: 24px;
+}
+.guestRoomWrap{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.showModalIcon{
+  font-size: 25px;
+  margin-top: 17px;
+  cursor: pointer;
+
+}
+.groupIcon{
+  color: white !important;
+  font-size: 30px !important;
+  margin-right: 13px;
+  cursor:pointer;
+}
+.adultChildWrap{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px 0px;
+}
+.adultIncrementDecrement, .childIncrementDecrement{
+  display: flex;
+  justify-content: space-between;
+  width: 144px;
+  border: 1px solid #ddd;
+  padding: 7px 15px;
+}
+.childIncrementDecrement{
+  margin-left:5px;
+  }
+.adultIncrementDecrement small, .childIncrementDecrement small{
+  font-size: 20px;
+  cursor: pointer;
+}
+.roomSelect{
+  width: 293px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin: 0 auto;
+  display: flex;
+  background-image: linear-gradient( 168deg,#19abe3, #4AB449) !important;
+  color: white;
+}
+.roomSelect option{
+  color: white !important;
+  background: #169ACC !important;
+}
+
+.formControl select{
+  width:100%;
+  background: transparent;
+}
+.formControl select option{
+background: #4AB449 !important;
+color: white !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .heroBoxMain {
+    width: 95%;
+    overflow: hidden;
+  }
+  .lastChild{
+    border-top-right-radius: 37px !important;
+  }
+  .firstChild {
+    border-top-left-radius: 37px !important;
+}
+
+  
+  .hotelModal{
+    margin-right: 84px;
+    margin-top: 83px;
+}
+.formControl {
+  width: 230px;
+  color: white;
+}
+
+
+
+}
+.calendar, .calendar2, .calendar3{
+  position: absolute;
+  z-index: 999;
+  left: 11px;
+  top: 0px;
+}
+.calendar2, .calendar3{
+  left: 50%;
+  transform: translate(-50%);
+}
+.calendar3{
+  top:-160px;
+}
+.calendarInput{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .bannerWrap h2 {
+    font-size: 25px;
+  }
+  .wrapMenu{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.desktopMenu{
+  display: none;
+}
+.mobileMenuWraps{
+  display: block;
+}
+.wrapMenu {
+  justify-content: space-between !important;
+  background: transparent;
+  width: 100%;
+  margin: 0 auto;
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px;
+  border-bottom: 1px solid #fff;
+  padding: 0px 0px;
+}
+.mobileMenuIcon{
+  font-size:25px !important;
+}
+.mobileMenuIcons{
+  font-size: 25px !important;
+  transform: rotate(44deg);
+
+}
+  .menu li {
+    height: 82%;
+    width: 100%;
+    border:none;
+}
+
+  .heroBoxMain {
+    width: 95%;
+    height: 365px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .heroBoxBtn {
+    top: 277px;
+}
+  .bannerWrap h2 {
+    margin-bottom: 10px;
+  }
+  .bestPlaceHead {
+    width: 100%;
+    margin-top: 129px;
+  }
+  
+  .hotelModal {
+    margin-right: 34px;
+    margin-top: 91px;
+    width: 83% !important;
+}
+.packageWrap {
+  flex-direction: column;
+}
+
+.formControl {
+  width: 300px;
+  margin-bottom: 8px;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  .bannerWrap {
+    height: 583px;
+  }
+  .bannerWrap h2 {
+    font-size: 23px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+  .heroBoxMain {
+    height: 515px;
+
+  }
+  .wrapMenu {
+    justify-content: space-between !important;
+}
+.menu li {
+  font-size: 14px;
+}
+.mobileMenuIcon, .mobileMenuIcon {
+  font-size: 23px !important;
+}
+.firstChild{
+  border-top-left-radius: 0px !important;
+  padding-left: 0px;
+
+}
+.lastChild{
+  margin-left: 113px;
+}
+  .heroBoxBtn {
+    top: 405px;
+    width: 209px;
+    font-size: 14px;
+    padding: 17px 0px;
+  }
+
+  .singleForm {
+    flex-direction: column;
+}
+  
+
+
+}
+

@@ -1,0 +1,43 @@
+.flightInfoWrap {
+  display: flex;
+  justify-content: center;
+  width: 265px;
+  margin-top: 40px;
+}
+
+.flightDetail {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 7px;
+}
+.flightDetail span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.iconWrap {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  background: #19ABE3;
+  border-radius: 50%;
+  margin-right: 5px;
+  text-align: center;
+}
+.flightIcons {
+  transform: rotate(39deg);
+  font-size: 20px;
+}
+.flightIcon {
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width:600px){
+.flightInfoWrap {
+  margin-left: 18px;
+  justify-content: left;
+}
+
+
+}

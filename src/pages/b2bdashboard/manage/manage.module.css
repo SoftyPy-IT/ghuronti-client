@@ -1,0 +1,110 @@
+.formControl label {
+  display: block;
+}
+.inputField, .mondalInputFiled, .requirementField{
+  width: 420px;
+  border: 1px solid #4ab449;
+  height: 42px;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 16px;
+  
+}
+.mondalInputFiled, .requirementField{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.requirementField{
+  padding-right:20px;
+
+}
+.requirementField input{
+  cursor:pointer;
+}
+.modalWrap2{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 405px;
+  padding-bottom: 46px;
+  border-radius: 10px;
+}
+.requirementModal{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding:30px;
+  border-radius:10px;
+}
+.roomSelect2 {
+  width: 293px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin: 0 auto;
+  display: flex;
+}
+.hotelModalCloseBtn2 {
+  color: #4AB449;
+  width: 32px;
+  font-size: 24px;
+  margin-left:10px;
+}
+.showModalIcon, .requirementIcon{
+  color:#4AB449 !important;
+cursor:pointer;
+}
+.formControl {
+  display: flex;
+  width: 850px;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.formControl input::placeholder {
+  color: black !important;
+  padding-left: 5px;
+  font-size: 13px;
+}
+.uploadIcon {
+  color: #4ab449 !important;
+  font-size: 30px !important;
+  margin-right: 7px;
+}
+
+.uploadFile {
+  display: flex;
+  width: 100%;
+  border: 1px solid #4ab449;
+  height: 50px;
+  text-align: center;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.uploadFile:hover {
+  background: #19abe3;
+  color: #fff;
+}
+.uploadFile:hover .uploadIcon {
+  color: #fff !important;
+}
+.submitBtn {
+  width: 100%;
+  background: #19abe3;
+  color: white;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.formControl textarea{
+  width: 850px;
+  height: 180px;
+  border: 1px solid #4AB449;
+  resize: none;
+  border-radius: 20px;
+  padding: 9px;
+}
+@media only screen and (max-width:768px){
+  .formControl {
+    display: block;
+}
+}

@@ -1,0 +1,136 @@
+.SignupWrap {
+  width: 100vw;
+}
+.ShowIcon {
+     position: absolute;
+     right: 14px;
+     top: 40px;
+     font-size: 17px;
+     color: #4AB449;
+}
+.loginInput {
+     /* box-sizing: border-box; */
+     width: 472px;
+     height: 50px;
+     /* background: #e6f8ff; */
+     border: 1px solid #4AB449;
+     border-radius: 5px;
+     padding: 10px;
+}
+.loginInput::placeholder{
+     color:black !important;
+}
+.loginBtn {
+  width: 323px;
+  height: 53px;
+  background: #4ab449;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  transition:all .5s ease-in-out;
+}
+.loginBtn:hover {
+    background:#26ade2
+   }
+.devided {
+  width: 206px;
+  height: 0px;
+  border: 2px solid #b0b8ba;
+}
+.loginBtn2 {
+  width: 323px;
+  height: 53px;
+  background: #26ade2;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  margin-left: 35px;
+  transition:all .5s ease-in-out;
+}
+.loginBtn2:hover {
+     background: #4ab449;
+    }
+.loginBtn3 {
+  position: absolute;
+  margin-left: 37px;
+  width: 323px;
+  height: 53px;
+  background: #ffffff;
+  border: 1px solid rgba(74, 180, 73, 0.5);
+  box-shadow: 0px 2px 4px rgba(25, 171, 227, 0.3);
+  border-radius: 5px;
+  color: #4ab449;
+  transition:all .5s ease-in-out;
+}
+.loginWithProvider {
+  width: 100%;
+  margin: 0 auto;
+}
+.circle {
+  width: 220px;
+  margin-bottom: 17px;
+  margin-right: 26px;
+}
+.circle button{
+     background:none !important;
+}
+.providerLoginWrap {
+  display: flex;
+  margin-top: 126px;
+  justify-content: center;
+  width: 109px;
+  align-items: center;
+  margin-left: 161px;
+
+}
+.providerLoginWrap {
+  display: flex;
+  margin-top: 126px;
+  justify-content: center;
+  width: 136px;
+  align-items: center;
+  margin-left: 174px;
+}
+@media only screen and (max-width: 1024px) {
+  .SignupWrap {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .SignupWrap {
+    width: 100%;
+  }
+  
+}
+@media only screen and (max-width: 500px) {
+  .SignupWrap {
+    width: 100%;
+  }
+  .loginInput {
+    width: 90%;
+    height: 45px;
+    margin-left: 16px;
+  }
+  .inputLabel {
+    margin-left: 19px;
+  }
+  .devided {
+    width: 130px;
+    margin-left: 11px;
+  }
+  .loginBtn,
+  .loginBtn2,
+  .loginBtn3 {
+    margin-left: -48px;
+    height: 45px;
+    width: 306px;
+  }
+  .ShowIcon {
+    right: 23px;
+    top: 38px;
+ }
+ .providerLoginWrap {
+  width: 49px;
+}
+ 
+}

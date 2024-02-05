@@ -1,0 +1,125 @@
+.toursDetialsWrap{
+    
+    width: 100%;
+    padding: 30px 50px;
+
+
+}
+.topBarCard{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #4AB449;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toursDetails{
+    display: flex;
+    justify-content: space-between;
+
+}
+.toursDetailLeftSide{
+    width:25%;
+
+}
+.toursDetailsRightSide{
+    width:75%;
+
+}
+.toursCard{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    height: 280px;
+    border-radius:5px;
+    margin-bottom: 20px;
+}
+.toursCardLeft{
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+ 
+
+}
+.toursImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    overflow: hidden;
+    transition: all .5s cubic-bezier(0, -0.06, 1, 1.21);
+}
+.toursImg:hover{
+    transform: scale(1.5);
+}
+.toursCard p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.toursCardRight{
+    margin-left: 10px;
+}
+.cardTextWrap{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 25px;
+}
+.cardText{
+    width: 80%;
+    margin-right: 15px;
+}
+.cardPrice button{
+    color: white;
+    background: #4AB449;
+    width: 90px;
+    height: 28px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.star{
+    color:#4AB449 !important;
+    font-size: 20px !important;
+}
+.category{
+    margin-top: 10px;
+}
+.category p{
+font-size: 14px;
+}
+@media only screen and (max-width:1024px){
+    .toursDetails{
+        display: block;
+    }
+    .toursDetailsRightSide, .toursDetailLeftSide {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .toursCard{
+        display: block;
+        height: auto;
+    }
+    .toursCardLeft {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .toursCardRight {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .toursDetialsWrap {
+        padding: 30px 15px;
+    }
+    .topBarCard {
+        width: 160px;
+        font-size: 14px;
+    }
+}

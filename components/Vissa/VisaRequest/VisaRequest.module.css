@@ -1,0 +1,141 @@
+.visaRequestWrap{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 1200px;
+    margin: 45px auto;
+    padding: 20px;
+
+}
+.needHelp{
+    box-shadow: #4AB449 0px 5px 15px;
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+}
+.needHelpRightSide{
+    width: 201px;
+    background: #19ABE3;
+    height: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.needHelpLeft{
+    width: 60%;
+
+}
+.phoneIcon{
+    color: white !important;
+    margin-right: 5px;
+}
+.inputFieldWrap{
+    display: flex;
+}
+.visaRequestForm{
+    margin-top: 20px;
+}
+.formControl{
+  
+    margin-right: 12px;
+    margin-top: 20px;
+
+}
+.visaInput{
+    border: 1px solid #0BB811;
+    border-radius: 20px;
+    width: 530px;
+    height: 58px;
+    padding-left: 15px;
+}
+.inputLabel{
+    display: block;
+    margin-bottom:5px;
+}
+.formControl input::placeholder{
+    color:black;
+
+}
+.textField{
+    width: 100%;
+    border: 1px solid #0BB811;
+    height: 134px;
+    margin-top: 7px;
+    resize: none;
+    border-radius: 20px;
+    padding: 15px 0 0 15px;
+}
+.visaSubmitBtn{
+    background: #19ABE3;
+    color: white;
+    width: 215px;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.uploadDoc{
+    background: #19ABE3;
+    width: 530px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid #0BB811;
+    border-radius: 20px;
+    transition: all .5s cubic-bezier(0.23, 0.15, 0.3, 0.26);
+}
+.uploadDoc:hover{
+    background:white;
+    color: #19ABE3;
+    border:1px solid #19ABE3
+}
+.uploadDoc:hover .uploadIcon{
+    color: #19ABE3 !important;
+}
+.uploadIcon{
+    font-size: 25px !important;
+    transition: all .5s cubic-bezier(0.23, 0.15, 0.3, 0.26);
+    margin-left: 10px;
+
+}
+
+
+@media only screen and (max-width:1024px){
+    .visaRequestWrap {
+        width: 100%;
+    }
+    .visaInput {
+        width: 490px;
+    }
+}
+@media only screen and (max-width:768px){
+    .inputFieldWrap {
+        display: block;
+    }
+    .visaInput {
+        width: 100%;
+    }
+    .uploadDoc{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px){
+    .needHelpLeft {
+        width: 100%;
+    }
+    .needHelp {
+        display: block;
+    }
+    .needHelpRightSide {
+        margin-top: 15px;
+    }
+}

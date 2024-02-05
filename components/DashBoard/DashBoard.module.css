@@ -1,0 +1,102 @@
+.dashboardWrap {
+  width: 1440px;
+}
+.AdminleftSide {
+  width: 330px;
+  height: 1100px;
+  background: #092e3d;
+  overflow: hidden;
+}
+.adminBtn,
+.adminBtn2,
+.adminBtn3,
+.adminBtn4,
+.adminBtn5 {
+  position: absolute;
+  width: 281px;
+  height: 60px;
+  left: 23px;
+  top: 480px;
+  background: #19abe3;
+  border: 1px solid #26ade2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 23px;
+}
+.adminBtn2 {
+  top: 576px;
+  background: rgba(25, 171, 227, 0.3);
+}
+.adminBtn3 {
+  top: 672px;
+  background: rgba(25, 171, 227, 0.8);
+}
+.adminBtn4 {
+  top: 768px;
+  background: rgba(25, 171, 227, 0.8);
+}
+.adminBtn5 {
+  top: 864px;
+  background: rgba(25, 171, 227, 0.8);
+}
+.logOutBtn {
+  position: absolute;
+  width: 219px;
+  height: 60px;
+  left: 54px;
+  top: 1130px;
+  background: #4ab449;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.adminRightSide {
+  box-sizing: border-box;
+  position: absolute;
+  width: 399px;
+  height: 397px;
+  left: 356px;
+  top: 471px;
+  background: #e5f8ff;
+  border: 1px solid #e5f8ff;
+  box-shadow: 0px 2px 8px rgba(74, 180, 73, 0.5);
+  border-radius: 5px;
+  padding: 15px;
+}
+.bookingBtn {
+  width: 150px;
+  height: 50px;
+  background: #19ba18;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  margin-right: 5px;
+}
+.bookingBtn2 {
+  width: 150px;
+  height: 50px;
+  background: #19abe3;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .dashboardWrap {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .dashboardWrap {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .dashboardWrap {
+    width: 100%;
+  }
+}

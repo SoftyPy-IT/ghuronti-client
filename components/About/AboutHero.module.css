@@ -1,0 +1,125 @@
+.aboutWrap{
+     width:100vw;
+     overflow: hidden;
+}
+.aboutHero{
+     position:relative;
+
+}
+.aboutHeroImg{
+     width:100%;
+     height:100vh;
+    
+}
+.aboutHero:after{
+     content:'';
+     position:absolute;
+     width:100%;
+     height:100%;
+     background:linear-gradient(180deg,#092e3d,rgba(9,46,61,.35) .01%,rgba(9,46,61,.65));
+     z-index: 99;
+     top:0;
+     left:0;
+     bottom:0;
+     right:0;
+     opacity:0.7;
+}
+.aboutHead{
+     position:absolute;
+     left:50%;
+     top:50%;
+     transform:translate(-50%, -50%);
+     z-index: 999;
+     color:white;
+     font-size:50px;
+     font-weight:600;
+     width:80%;
+     text-align:center;
+     line-height:70px;
+}
+.leftBox{
+width: 401px;
+height: 414px;
+background: linear-gradient(180deg, #4AB449 0%, rgba(38, 173, 226, 0.3) 100%);
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, #19ABE3 0px 6px 6px;
+border-radius: 5px;
+overflow: hidden;
+margin-top:-150px;
+margin-right:45px;
+align-items:center;
+justify-content:center;
+display:flex;
+margin-bottom:30px;
+}
+.aboutMan{
+width: 250px;
+height: 300px;
+}
+.rightBox{
+     width: 412px;
+     height: auto;
+     background: rgba(25, 171, 227, 0.3);
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px 30px;
+     margin-left: 45px;
+
+}
+
+
+@media only screen and (max-width:1024px){
+     .aboutWrap{
+          width:100%;
+     }
+}
+
+@media only screen and (max-width:768px){
+     .aboutWrap{
+          width:100%;
+     }
+     .rightBox{
+          margin-left:-35px;
+          
+     }
+     .leftBox{
+      margin-top:10px;
+    }
+}
+
+@media only screen and (max-width:500px){
+     .aboutWrap{
+          width:100%;
+          text-align: center;
+     }
+     .leftBox{
+          width: 380px;
+          height: 400px;
+          margin:0 auto;
+          }
+          .aboutMan{
+          width: 250px;
+          height: 300px;
+          }
+          .rightBox{
+          width: 380px;
+          margin: 27px auto;
+          }
+          
+}
+@media only screen and (max-width:500px){
+     .aboutHead {
+          font-size: 26px;
+          line-height: 30px;
+      }
+      .rightBox {
+          margin-top: -73px;
+      }
+      
+}
+@media only screen and (max-width:400px){
+     .teamHead {
+          width: 100%;
+      }
+}

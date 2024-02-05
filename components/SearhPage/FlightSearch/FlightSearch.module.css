@@ -1,0 +1,479 @@
+.hotelSearchBoxWrap {
+  padding: 32px;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.hotelSearchLeftSide {
+  grid-column: span 9 / span 9;
+}
+.flightRightSide {
+  grid-column: span 3 / span 3;
+}
+.searchDetailHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 80px;
+  background: #e9f6e9;
+}
+
+
+.flightSearch {
+  width: 95%;
+  height: 251px;
+  margin: 15px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.3s ease-in-out;
+}
+.flightSearch:hover {
+  box-shadow: #4ab449 0px 10px 20px, #4ab449 0px 6px 6px;
+}
+.bookBtnGroup {
+  justify-content: space-between;
+  padding: 0px 8px;
+}
+.flightPrice {
+  display: flex;
+  justify-content: space-between;
+  width: 930px;
+  margin: 15px auto;
+}
+.flightSearchLeftSide {
+  position: relative;
+  width: 389px;
+  overflow: hidden;
+  background: #e9f6e9;
+  padding: 5px;
+  height: 251px;
+}
+.leftArrow {
+  color: black !important;
+  width: 30px !important;
+  height: 50px !important;
+  text-align: center;
+  border: 1px solid green;
+}
+.deal {
+  background: #26ade2;
+  font-size: 12px;
+  color: #fff;
+  width: 120px;
+  padding: 3px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.dealIcon {
+  font-size: 14px;
+}
+.flightBookBtn {
+  color: white;
+  background: #26ade2;
+  font-size: 14px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+.flightDurationWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.flightDuration {
+  display: flex;
+  align-items: center;
+  width: 43%;
+  margin-bottom: 20px;
+}
+.duration,
+.duration2 p {
+  font-size: 12px;
+  color: black;
+}
+
+.editSearchBtn {
+  background: #4ab449;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.searchLeftImg {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  transform: scale(1);
+  transition: all 0.8s ease-in-out;
+  background-size: cover;
+}
+
+.searchLeftImg:hover {
+  transform: scale(1.2);
+}
+.starFrom {
+  color: #4ab449;
+  font-size: 12px;
+}
+.searchBoxWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+.priceBlock {
+  text-align: right;
+  margin-top: 60px;
+}
+.flightDesc {
+  width: 200px;
+  text-align: left;
+  margin-top: 41px;
+}
+.detailBoxWrap {
+  display: flex;
+}
+.availableHotel {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-bottom:5px;
+}
+.flightButton {
+  margin: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.perFlightPerson {
+  width: 80px;
+  background: #e9f6e9;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #4AB449;
+}
+.flightSlider{
+  width: 860px;
+  margin: 0 auto;
+
+}
+.perFlightPerson:hover {
+  border: 1px solid #4ab449;
+}
+.perFlightPerson h2 {
+  font-size: 14px !important;
+  margin: 0;
+  padding: 0;
+}
+.perFlightPerson small {
+  font-size: 12px;
+}
+.flight {
+  width: 33.1%;
+  height: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-out;
+}
+.flight:hover {
+  background: #4ab449;
+  color: #fff;
+}
+.bookDuration {
+  width: 250px;
+  margin: 0 auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bookDuration p {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.bookDuration button {
+  background: #4ab449;
+  width: 34px;
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.bookDurationBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sheduleBtn {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  padding: 8px 5px;
+  background: #fff;
+  color: black;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 5px;
+}
+.sheduleBtn:hover {
+  border: 1px solid #4ab449;
+}
+.sheduleBtnIcon {
+  font-size: 16px;
+}
+.pagination{
+  width: 912px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 23px;
+}
+
+.paginationBtn button{
+  width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #4AB44A;
+    color: #4AB449;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}
+.priceInclude{
+  margin-left:23px;
+  margin-top:20px;
+  margin-bottom:50px;
+}
+.arrowLeft, .arrowRight{
+  color:#4AB449 !important;
+}
+
+@media only screen and (max-width:1024px){
+  .pagination {
+    width: 600px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.flightSlider{
+  width: 610px;
+
+}
+.flightPrice{
+  width: 677px;
+}
+
+.pagination p{
+  margin-bottom:5px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .hotelSearchLeftSide {
+    grid-column: span 12 / span 12;
+  }
+  .flightRightSide {
+    grid-column: span 12 / span 12;
+    place-content: center;
+    text-align: center;
+  }
+  .flightSearch {
+    height: 252px;
+    width: 100%;
+  }
+  .flightDesc {
+    width: 522px;
+    text-align: center;
+  }
+  .slick-prev {
+    left: -26px !important;
+    top: 28px !important;
+    z-index: 99;
+}
+.slick-next {
+  right: -32px !important;
+  top: 29px !important;
+}
+  .editSearchBtn {
+   margin-top:15px;
+}
+  .searchLeftImg {
+    width: 300px;
+    height: 252px !important;
+  }
+  .searchDetailHead {
+     display: block;
+     padding: 17px;
+     text-align: left;
+     padding-left: 26px;
+  }
+  .bookBtnGroup {
+    padding: 0px 0px;
+  }
+  .flightPrice {
+    display: block;
+  }
+  .flight {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 5px;
+  }
+  .flightButton {
+     margin: 20px 0px !important;
+     flex-wrap: wrap;
+     width: 100%;
+     justify-content: space-between;
+  }
+  .perFlightPerson {
+     width: 105px;
+     background: #e9f6e9;
+     text-align: center;
+     overflow: hidden;
+     transition: all 0.3s ease;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     margin: 4px 7px;
+  }
+  .sheduleBtn {
+    width: 100%;
+  }
+  .pagination {
+    width: 100%;
+  }
+
+  .paginationBtn button {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+}
+.priceInclude{
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 22px;
+}
+.bookingCard{
+  width: 639px;
+  margin: 0 auto;
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+.textField{
+  width:100% !important;
+}
+.textFieldWrap{
+  margin: 0 auto;
+  margin-left: 33px;
+  margin-bottom: 9px;
+}
+
+
+}
+@media only screen and (max-width: 500px) {
+  .detailBoxWrap {
+    display: block;
+  }
+  .flightPrice{
+    width: 100%;
+}
+  .flightSearch {
+    height: 561px;
+    width: 100%;
+  }
+  .flightSlider {
+    width: 350px;
+    margin-left: 2px;
+}
+  .searchLeftImg {
+    width: 100%;
+    height: 230px !important;
+  }
+  .searchBoxWrap {
+    display: block;
+  }
+  .priceBlock {
+    text-align: left;
+    margin-top: 15px;
+  }
+  .availableHotel {
+    display: block;
+    padding: 0px 0px;
+  }
+  .flightSearchLeftSide {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .deal {
+    color: #fff;
+    width: 120px;
+    margin: 10px auto;
+  }
+
+  .paginationBtn button {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+}
+.arrowLeft, .arrowRight {
+  font-size: 12px !important;
+}
+.pagination {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.bookingCard {
+  width: 400px;
+  margin-left: -19px;
+  margin-bottom: 16px;
+}
+
+
+}
+@media only screen and (max-width: 400px) {
+  .flightSearch {
+    height: 607px;
+  }
+  .flightDesc {
+    margin-left: -28px !important;
+  }
+  .flightSlider {
+    width: 252px;
+    margin-left: 27px;
+}
+  .paginationBtn button {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+}
+.priceInclude {
+  font-size: 14px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.bookingCard {
+  width: 345px;
+  margin-left: 10px;
+  margin-bottom: 16px;
+}
+
+
+}

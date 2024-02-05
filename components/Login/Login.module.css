@@ -1,0 +1,114 @@
+.loginWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.loginInput {
+  width: 430px;
+  height: 60px;
+  background: #e6f8ff;
+  border: 1px solid #4ab449;
+  border-radius: 5px;
+  padding: 10px;
+}
+.loginInput::placeholder {
+  color: black !important;
+}
+.loginBtn {
+  width: 430px;
+  height: 60px;
+  background: #4ab449;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  margin: 0 auto;
+  transition: all 0.4s ease-in-out;
+}
+.loginBtn:hover {
+  background: #26ade2;
+}
+.inputLabel {
+  text-align: left;
+  position: absolute;
+  left: 0;
+}
+.devided {
+  width: 206px;
+  height: 0px;
+  border: 2px solid #b0b8ba;
+}
+.loginBtn2 {
+  background: #26ade2;
+}
+.loginBtn2:hover {
+  background: #4ab449;
+}
+
+.loginWithProvider {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.ShowIcon {
+  position: absolute;
+  right: 15px;
+  top: 39px;
+  font-size: 30px;
+  color: #4ab449;
+}
+.circle button {
+  background: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .loginWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .loginWithProvider {
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .circle {
+    /* position: absolute; */
+    left: 0 !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .loginWrap {
+    width: 100%;
+  }
+  .loginInput {
+    width: 400px;
+  }
+
+  .devided {
+    width: 130px;
+    margin: 0 auto;
+    height: 0px;
+    border: 2px solid #b0b8ba;
+  }
+  .loginInput {
+    width: 368px;
+  }
+  .ShowIcon {
+    right: 16px;
+    top: 38px;
+  }
+
+  .inputLabel {
+    left: 7px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .loginInput {
+    width: 350px;
+  }
+  .devided {
+    width: 150px;
+  }
+}

@@ -1,0 +1,111 @@
+.loginAgentWrap {
+  width: 100vw;
+  padding: 50px 0px;
+}
+.loginInput {
+  width: 472px;
+    height: 45px;
+    background: #e6f8ff;
+    border: 1px solid #4AB449;
+    border-radius: 5px;
+    padding: 10px;
+}
+.loginInput::placeholder{
+  color:black !important;
+}
+.loginLabel {
+  font-size: 14px;
+}
+.loginBtn {
+  width: 323px;
+  height: 45px;
+  background: #4ab449;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  margin-left: 65px;
+  transition:all .5s ease;
+}
+.loginBtn:hover{
+  background:#26ade2;
+}
+.devided {
+  width: 206px;
+  height: 0px;
+  border: 2px solid #b0b8ba;
+}
+.loginBtn2 {
+  width: 323px;
+  height: 45px;
+  background: #26ade2;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  transition:all .5s ease-in-out;
+}
+.loginBtn2:hover{
+  background:#4AB449;
+}
+.loginBtn3 {
+  position: absolute;
+    width: 323px;
+    height: 45px;
+    background: #ffffff;
+    border: 1px solid rgba(74, 180, 73, 0.5);
+    box-shadow: 0px 2px 4px rgba(25, 171, 227, 0.3);
+    border-radius: 5px;
+    color: #4ab449;
+    transition:all .5s ease-in-out;
+}
+.loginBtn3:hover{
+  background:#4AB449;
+  color:white;
+}
+.circle button{
+  background:none;
+}
+.providerLoginWrap{
+  display: flex;
+  justify-content: space-between;
+  width: 233px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 77px;
+}
+.providerLoginWrap button{
+  width:40px !important;
+  margin-right:20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .loginAgentWrap {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .loginAgentWrap {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .loginAgentWrap {
+    width: 100%;
+  }
+  .loginInput {
+    width: 350px;
+    margin-left: 4px;
+  }
+  .loginLabel {
+    margin-left: 9px;
+  }
+  .devided {
+    width: 130px;
+    margin: 0 auto;
+  }
+  .loginBtn, .loginBtn2, .loginBtn3 {
+    width: 300px;
+    margin-left: -36px;
+  }
+}

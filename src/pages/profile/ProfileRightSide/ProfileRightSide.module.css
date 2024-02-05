@@ -1,0 +1,126 @@
+.userInfo {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.inputBtn {
+  width: 430px;
+  margin-right: 5px !important;
+}
+.userInputField{
+  width:380px;
+  margin-right: 5px !important;
+}
+.inputGroupWrap {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+.saveBtn {
+margin-top:15px;
+}
+.saveBtn button {
+  background: #26ade2;
+  color: white;
+  font-size: 20px;
+  width: 272px;
+  height: 45px;
+  border-radius: 5px;
+  transition:all .5s ease-in-out;
+}
+.inputBox{
+  margin-right:5px !important;
+}
+.userIcon{
+  color:#666666;
+  margin-right:10px;
+}
+.uploadWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 21px auto;
+}
+.fileUploadIcon {
+  color: #fff;
+  background: #19abe3;
+  border-radius: 50%;
+  width: 25px !important;
+  height: 25px !important;
+  margin-right: 5px;
+  line-height: 25px;
+}
+.upload {
+  width: 300px;
+  margin-right: 19px;
+  background: #e6f8ff;
+  text-align: center;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.uploadIcon {
+  font-size: 20px !important;
+}
+.viewbtn {
+  font-size: 12px;
+  width: 97px;
+  height: 29px;
+  background-color: #19abe3;
+  color:#fff;
+  margin-top:10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .inputBtn {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .inputGroupWrap {
+    width: 87%;
+    display: block;
+  }
+  .inputGroupWrap {
+    margin-top: 0px;
+  }
+  .uploadImgWrap {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .uploadImgWrap button {
+    background: #c9e9c9;
+    color: black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-right: 10px;
+    padding: 10px 3px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 197px;
+  }
+
+  .userImg {
+    margin: 0px auto;
+    margin-bottom: 16px;
+
+  }
+  .saveBtn {
+    margin-top: 4px;
+    margin-bottom: 30px;
+  }
+  .inputBtn {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}

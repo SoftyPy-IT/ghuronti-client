@@ -1,0 +1,33 @@
+.fareDetailWrap{
+     width:100%;
+     border:1px solid #ddd;
+     padding:20px;
+     margin-bottom: 50px;
+}
+.fareHeadTop{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 8px;
+     background: #E9F6E9;
+     width: 100%;
+     padding: 8px 0px;
+    
+
+}
+.fareHead{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom:8px;
+}
+.fareDetailWrap strong{
+     font-size: 14px;
+}
+
+.fareHead span{
+     font-size:14px;
+    
+}
+.line{
+     width:100%;
+     margin:5px 0px;
+}

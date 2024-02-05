@@ -1,0 +1,313 @@
+.vissa {
+  width: 100vw !important;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+.bannerWrap {
+  position: relative;
+  background-image: url(/_next/static/media/banner.f7be9e77.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100vw !important;
+  margin-bottom: 53px;
+}
+
+.bannerWrap h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 22px;
+}
+.heroBoxMain {
+  width: 1200px;
+  background: #c6e8f1 0.6;
+  z-index: 99;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 30px;
+  position: relative;
+  top: 27px;
+  background:#19ABE3;
+  padding-bottom: 45px;
+  overflow: hidden;
+}
+
+/* menu styling  */
+.wrapMenu {
+  z-index: 999 !important;
+  display: flex;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background: #4ab449;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: #fff;
+  z-index: 99;
+  font-size: 16px;
+  position: relative;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+.activeMenu {
+  border-right: none;
+  background: #19abe3 !important;
+}
+
+.firstChild {
+  border-top-left-radius: 17px !important;
+  padding-left: 25px;
+}
+.lastChild {
+  border-right: 1px solid #fff !important;
+  border-top-right-radius: 17px !important;
+}
+
+.menu li P {
+  z-index: 999 !important;
+}
+.block {
+  display: none;
+}
+.visaWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+.visaPackajWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+.visaPackaj {
+  width: 300px;
+  height: 70px;
+  background: transparent;
+  margin-right: 7px;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+.visaPackaj select {
+  background: transparent;
+  width: 100%;
+}
+.visaPackaj select option {
+  background: #4ab449;
+  color: #fff;
+  border: 1px solid #fff !important;
+}
+.visaBtn {
+  height: 70px;
+  border: 1px solid #fff;
+  width: 91px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  padding: 9px;
+  border-radius: 3px;
+  background-image: linear-gradient(281deg, #19ABE3, #0BB811);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.visaBtn:hover {
+  background-image: linear-gradient(281deg, #0BB811, #19ABE3);
+}
+
+.searchIcon {
+  font-size: 25px;
+  color: white;
+  margin-left: 14px;
+}
+.mobileMenuWraps {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .heroBoxMain {
+    width: 95%;
+    overflow: hidden;
+  }
+  .bannerWrap h2 {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 29px;
+  }
+
+  .block {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bannerWrap {
+    height: 480px;
+  }
+  /* mobile menu styling  */
+
+  .mobileMenuWraps {
+    display: block;
+  }
+  .menuWrap {
+    display: none;
+  }
+
+  .mobileMenuWraps {
+    display: block;
+  }
+  .wrapMenu {
+    justify-content: space-between !important;
+    background: transparent;
+    width: 100%;
+    margin: 0 auto;
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid #fff;
+    padding: 0px 0px;
+  }
+  .mobileMenuIcon {
+    font-size: 25px !important;
+  }
+  .mobileMenuIcons {
+    font-size: 25px !important;
+    transform: rotate(44deg);
+  }
+
+  .visaPackajWrap {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .visaPackaj {
+    width: 450px;
+    margin-bottom: 10px;
+  }
+  .visaBtn {
+    width: 450px;
+  }
+
+  .bannerWrap h2 {
+    font-size: 25px;
+  }
+  .menu {
+    flex-wrap: wrap;
+  }
+  .wrapMenu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu li {
+    height: 82%;
+    width: 100%;
+    border: none;
+  }
+  .lastChild {
+    border-right: none !important;
+  }
+
+  .heroBoxMain {
+    width: 93%;
+    height: 410px;
+    top: -18px;
+    border-radius: 20px;
+  }
+
+  .bannerWrap h2 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .bannerWrap {
+    height: 433px;
+  }
+  .menuli {
+    font-size: 14px;
+  }
+  .bannerWrap h2 {
+    text-align: center;
+    font-size: 23px;
+    padding-top: 20px;
+  }
+  .menuWrap {
+    display: none;
+  }
+  .wrapMenu {
+    justify-content: space-between !important;
+    padding: 0px 5px;
+  }
+  .firstChild {
+    border-top-left-radius: 0px !important;
+    padding-left: 0px;
+  }
+  .lastChild {
+    margin-left: 113px;
+  }
+  .heroBoxBtn {
+    padding: 10px 28px;
+    top: 326px;
+  }
+
+  .bannerWrap h2 {
+    margin-bottom: 15px;
+  }
+
+  .visaPackaj {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .heroBoxMain {
+    height: 350px;
+  }
+
+  .visaPackaj {
+    width: 330px;
+    height: 63px;
+    font-size: 14px;
+  }
+  .visaBtn {
+    height: 59px;
+    width: 100%;
+  }
+  .searchIcon {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapMenu {
+    padding: 0px 0px;
+  }
+  .visaPackaj {
+    width: 290px;
+  }
+
+  .bannerWrap h2 {
+    font-size: 20px;
+  }
+  .menu li {
+    font-size: 14px;
+  }
+  .mobileMenuIcon,
+  .mobileMenuIcons {
+    font-size: 22px !important;
+  }
+  .bannerWrap{
+    margin-bottom: 27px;
+}
+}

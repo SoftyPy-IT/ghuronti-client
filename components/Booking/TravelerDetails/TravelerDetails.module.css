@@ -1,0 +1,29 @@
+.travelerInfoWrap{
+     margin-bottom: 30px;
+    padding-left: 21px;
+
+}
+.passport button{
+     background: #4AB449;
+     margin-right: 15px;
+     border-radius: 3px;
+     margin-top: 5px;
+     width: 125px;
+     height: 28px;
+     border-radius: 25px;
+     color: white;
+     font-size: 14px;
+ 
+}
+.travelerInfo{
+     display: flex;
+    width: 499px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:600px){
+     .travelerInfo{
+          display: block
+     }
+}

@@ -1,0 +1,34 @@
+
+.rightSideWrap{
+     width: 400px;
+     border: 1px solid #ddd;
+     padding: 20px;
+     margin: 0 auto;
+}
+.priceSummery div, .priceSummery strong{
+     font-size:12px;
+     margin-bottom:7px;
+}
+.priceSummery strong{
+     display: block;
+}
+.reservationBtn{
+     background: #4AB449;
+     color: white;
+     width: 178px;
+     height: 36px;
+     border-radius: 3px;
+     font-weight: bold;
+     font-size: 14px;
+}
+.horizontalLine{
+     border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+@media only screen and (max-width:1024px){
+     .rightSideWrap {
+          margin-left: 0px;
+          width: 100%;
+      }
+
+}

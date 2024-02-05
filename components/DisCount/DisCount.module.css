@@ -1,0 +1,37 @@
+.discountWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom:50px;
+    flex-wrap: wrap;
+}
+.lottiAnimation{
+    width:450px !important;
+    height:400px !important;
+}
+.planeAnimation{
+    width:450px;
+    height:400px;
+}
+@media only screen and (max-width:1024px){
+    .discountWrap{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    .discountWrap {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .planeAnimation{
+        width:100%;
+    }
+}
+

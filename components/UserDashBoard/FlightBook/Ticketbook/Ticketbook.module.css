@@ -1,0 +1,121 @@
+.ticketInfo {
+    width: 100%;
+    height: 58px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    border: 1px solid #4ab449;
+    box-shadow: rgba(22, 241, 59, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 99 !important;
+    position: relative;
+    background: radial-gradient(black, transparent);
+    background: #19abe3;
+    justify-content: center;
+  }
+  .ticketIcon{
+    font-size: 30px !important;
+  }
+  .ticketInfo button{
+    width: 201px;
+    height: 39px;
+    background: #4AB449;
+    margin-right: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  .ticketInfo button:nth-child(2),   .ticketInfo button:nth-child(3),   .ticketInfo button:nth-child(4){
+    background: #fb4343;
+  }
+  .ticketCard{
+    width: 1200px;
+    margin: 25px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  .flightInfo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+.clientPrice p{
+  width: 253px;
+  background: #19ABE3;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+  .bookedBtn button{
+    width: 72px;
+    background: #19ABE3;
+    margin-right: 5px;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-top: 5px;
+  }
+  .bookedBtn button:nth-child(1){
+    width: 72px;
+    background: rgb(248, 89, 89);
+  }
+  .bookingInfo{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+
+  }
+  .flightInfoWrap{
+    margin-top: 30px;
+  }
+  .flightInfoWrap table{
+    text-align: left;
+    font-size: 14px;
+  }
+  .flightInfoWrap table tr{
+
+  }
+  .flightInfoWrap table th{
+    background: #E9F6E9;
+    padding: 5px;
+  }
+   
+  .flightInfoWrap table td{
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  .passengerInfo{
+    width: 50%;
+    margin-top: 15px;
+    font-size: 14px;
+
+  }
+  .singlePassenger{
+    display: flex;
+    margin-bottom: 15px;
+    text-align: left;
+    justify-content: space-between;
+  }
+  .rightSide{
+   width:200px;
+   text-align:left;
+  
+  }
+  .passenger{
+    background-color: #19ABE3;
+    color: white;
+    padding-left: 5px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px 0px;
+    font-size: 16px;
+  }

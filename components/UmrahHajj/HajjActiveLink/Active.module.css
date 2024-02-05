@@ -1,0 +1,13 @@
+.hajjActive{
+    background: #E6F8FF !important;
+    width: 200px !important;
+    z-index: 99999999 !important;
+    position: relative !important;
+    color: black !important;
+    display: block;
+    padding-left: 4px !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 29px;
+}
+.noActive{
+}

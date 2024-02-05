@@ -1,0 +1,298 @@
+.contactInfoWrap {
+  padding: 0px 50px;
+}
+.contactUsWrap {
+  background-image: url("../../../public/assets/contact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.contactUsWrap:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #4ab449;
+  z-index: 99;
+  opacity: 0.8;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 999;
+  position: absolute;
+  height: 100%;
+}
+.contactText {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 121px;
+  color: white;
+}
+.getInTouch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
+.getInTouchLeft {
+  width: 45%;
+  padding-top: 35px;
+}
+.getInTouchRight {
+  width: 55%;
+  margin-left: 22px;
+  height: 100%;
+  margin-top: -135px;
+  z-index: 999;
+}
+.contactImg {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.formControl {
+  margin-bottom: 25px;
+}
+.formControl label {
+  display: block;
+}
+.formControl .inputField {
+  width: 100%;
+  border: 1px solid #4ab449;
+  height: 50px;
+  border-radius: 8px;
+}
+.formControl input::placeholder,
+.formControl textarea::placeholder,
+.subscribeContent input::placeholder {
+  color: black !important;
+  padding-left: 5px;
+  font-size: 14px;
+}
+.formControl textarea {
+  border: 1px solid #4ab449;
+  resize: none;
+  width: 100%;
+  height: 150px;
+  border-radius: 12px;
+}
+.sendMessageBtn {
+  background: #4ab449;
+  color: white;
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+}
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+.line {
+  background: #4ab449;
+  width: 2px;
+  height: 55px;
+}
+.contactIcon {
+  font-size: 36px;
+  color: #4ab449;
+  margin-right: 6px;
+}
+.socialMedia {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+}
+.singleSocialMedia,
+.activeSocial {
+  width: 280px;
+  background: #fff;
+  aspect-ratio: 1/1;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #4ab449;
+  color: black;
+  transition: all cubic-bezier(0.25, 0.22, 1, 0.99);
+}
+
+.activeSocial {
+  background-color: #4ab449 !important;
+  color: white !important;
+}
+.activeSocial:hover {
+  background-color: #fff !important;
+  color: black !important;
+}
+.singleSocialMedia:hover {
+  background-color: #4ab449 !important;
+  color: white !important;
+  border: 1px solid #fff;
+}
+.socialIcon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #19abe3;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 29px;
+  color: white;
+}
+.subscribes {
+  width: 100%;
+  height: 250px;
+  background-image: url(/_next/static/media/plan.2691be81.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.subscribes:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #4ab449;
+  z-index: 99;
+  opacity: 0.8;
+}
+.subscribeHead {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 60%;
+}
+.subInput {
+  width: 40%;
+  position: relative;
+}
+.subscribeContent {
+  display: flex;
+  z-index: 999;
+  position: absolute;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 25px;
+}
+.subscribeContent input {
+  width: 380px;
+  height: 54px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.subscribeContent button {
+  background: #19abe3;
+  width: 100px;
+  height: 55px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  .singleSocialMedia,
+  .activeSocial {
+    width: 220px;
+  }
+  .contactText {
+    padding: 0px 25px;
+  }
+  .contactInfo {
+    width: 100%;
+  }
+  .subscribeContent {
+    display: block;
+  }
+  .subscribeHead {
+    margin-bottom: 10px;
+  }
+  .subscribeHead,
+  .subInput {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .getInTouch,
+  .socialMedia {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .getInTouchLeft,
+  .getInTouchRight {
+    width: 100%;
+  }
+  .getInTouchRight {
+    margin-top: 30px;
+  }
+  .singleSocialMedia {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contactText {
+    display: block;
+  }
+  .contactTextLeft {
+    margin-bottom: 60px;
+  }
+  .contactInfoWrap {
+    padding: 0px 12px;
+  }
+  .singleSocialMedia,
+  .activeSocial {
+    margin: 15px auto;
+  }
+  .subscribeHead,
+  .subInput {
+    font-size: 21px;
+  }
+  .subscribeContent input {
+    width: 94%;
+    border-radius: 5px;
+  }
+  .subscribeContent button {
+    width: 50%;
+    border-radius: 7px;
+    margin-top: 6px;
+  }
+  .subscribeContent {
+    padding-left: 0px;
+  }
+}

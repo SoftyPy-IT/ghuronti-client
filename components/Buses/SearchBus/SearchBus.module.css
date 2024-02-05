@@ -1,0 +1,275 @@
+.trainSearchWrap{
+    background:#ddd;
+}
+.busWrap{
+    width: 100%;
+    padding: 20px 50px;
+
+}
+.busCardWrap{
+    display: flex;
+}
+.busTopBar h6{
+     font-weight: bold;
+     font-size: 20px;   
+}
+.topBtnGroup{
+    display: flex;
+    width: 215px;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.nextBtn, .prevBtn{
+    width: 105px;
+    background: #fff;
+    height: 35px;
+    color: black;
+    display: flex;
+    align-items: center;
+    color:#4AB449;
+   
+}
+.prevBtn{
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 13px;
+}
+.nextBtn{
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 13px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchBusLeftSide{
+    width:25%;;
+}
+.seatTypeWrap{
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 280px;
+    margin-bottom:20px;
+}
+
+.searchBusRightSide{
+    width:75%;
+}
+.searchBusLeftSide span{
+    margin-left:5px;
+    font-size: 13px;
+}
+.searchBusLeftSide ul li{
+    margin-bottom: 8px;
+}
+.allBusCardWrap{
+    background:#fff;
+    box-shadow: #0BB811 0px 1px 1px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.busCard{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.modifyBtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 2px;
+    font-size: 12px;
+    transition: all .5s cubic-bezier(0.27, 0.26, 0.67, 0.62);
+    background: white;
+    color: #4AB449;
+}
+.modifyBtn:hover{
+    background-color: #4AB449;
+    color:white;
+    border:1px solid white;
+}
+.viewBtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 2px;
+    font-size: 12px;
+    border: 1px solid #0BB811;
+    transition: all .5s cubic-bezier(0.27, 0.26, 0.67, 0.62);
+}
+.viewBtn:hover{
+    background: #0BB811;
+    color:white;
+
+}
+.modifyBtn{
+width: 130px !important;
+height: 40px !important;
+}
+.busTopBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #4AB449;
+    padding: 20px 50px;
+    color: white;
+}
+.trainIcon{
+    font-size: 20px;
+}
+.policy{
+    display: flex;
+    align-items: center;
+    color: #0BB811;
+}
+.policy small{
+    margin-right:10px;
+    
+}
+.availableSeat{
+    display: flex;
+    justify-content: space-between;
+}
+.seatIcon{
+    font-size: 30px !important;
+    color:#3f3434 !important;
+    cursor: pointer;
+    transition:all .5s ease-in-out;
+    
+}
+.toolTip{
+    display: none;
+    transition: all .5s cubic-bezier(0.11, -0.04, 0.96, 1.06);
+    z-index: 9999999999 !important;
+    background: #19ABE3;
+    width: 26px;
+    text-align: center;
+    border: 1px solid #fff;
+    position: absolute;
+    color: white;
+  }
+  .showToolTip{
+    position: relative;
+    margin-right:3px;
+    margin-left:3px;
+    margin-bottom:8px;
+  
+  }
+  .showToolTip:hover .seatIcon{
+    color: #0BB811 !important;
+  }
+.showToolTip:hover .toolTip{
+    display:block;
+    transition: all .5s cubic-bezier(0.11, -0.04, 0.96, 1.06);
+    z-index: 9999999999 !important;
+    }
+
+.bus{
+    width:250px;
+    border: 1px solid #0BB811;
+    padding:30px ;
+    margin-top:10px;
+}
+.seatSelect{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bus span{
+    margin-right:15px;
+}
+.selectedSeat {
+    text-align: left;
+}
+.selectedSeat th{
+    background: #19ABE3;
+    padding: 5px;
+    color:white;
+}
+.selectedSeat td{
+    padding: 5px;
+
+}
+.allBookedSeat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.allBookedSeat small{
+    margin-left:5px;
+}
+
+.warningIcon{
+    color:red !important;
+    margin-right: 5px;
+    font-size: 20px !important;
+}
+
+
+.show{
+display: block;
+}
+.hide{
+display: none;
+}
+
+
+
+@media only screen and (max-width:1024px){
+    .allBusCardWrap{
+        padding: 30px 7px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .busWrap {
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .busCardWrap {
+        display: block;
+    }
+    .searchBusLeftSide, .searchBusRightSide{
+        width: 100%;
+    }
+    .totalOperator{
+        margin: 10px 5px;
+    }
+    .busTopBar h6{
+        font-size: 15px;
+    }
+    .allBusCardWrap{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 20px;
+    }
+    .modifyBtn{
+        margin-top: 15px;
+    }
+    .availableSeat{
+        display: block;
+    }
+
+    
+}
+@media only screen and (max-width:500px){
+
+    .busCard {
+        display: block;
+    }
+    .busDetail{
+        margin-bottom: 10px;
+    }
+    .busTopBar {
+        display: block;
+    }
+    .allBookedSeat {
+        margin: 23px 0px;
+    }
+    
+    
+
+}

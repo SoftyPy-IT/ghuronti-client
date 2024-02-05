@@ -1,0 +1,48 @@
+.seeMoreDestination{
+    width: 165px;
+    height: 40px;
+    border:1px solid #4AB449;
+    color: #4AB449;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    border:1px solid #4AB449;
+    transition:all .5s ease-in-out;
+  }
+  .seeMoreDestination:hover{
+    background:#4AB449;
+    color:white;
+  }
+  .seeMoreBtn{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 19px;
+    color: #4AB449 !important;
+  }
+  .seeMoreDestination:hover .seeMoreBtn{
+    color:white !important;
+  }
+
+
+
+  @media only screen and (max-width:1024px){
+    .seeMoreDestination {
+      margin-right: 65px;
+  }
+
+  }
+
+  
+
+  @media only screen and (max-width:500px){
+
+  .seeMoreDestination {
+    width: 125px;
+    height: 30px;
+}
+
+  }

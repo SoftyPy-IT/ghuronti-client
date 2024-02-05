@@ -1,0 +1,27 @@
+
+
+.travel{
+  height: 390px;
+  margin: 0 auto;
+}
+.travelImg{
+  width:100%;
+  height:100%;
+ 
+}
+@media only screen and (max-width:1024px){
+  .travel{
+   width:100%;
+  }
+}
+
+@media only screen and (max-width:768px){
+  .travel{
+   height:300px;
+  }
+}
+@media only screen and (max-width:500px){
+  .travel{
+   height:205px;
+  }
+}

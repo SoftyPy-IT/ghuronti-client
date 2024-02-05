@@ -1,0 +1,62 @@
+.packageWrap {
+  margin-top: 30px;
+}
+.packageContent h6 {
+  font-weight: bold;
+}
+.packageContent strong {
+  font-size: 14px;
+}
+
+.package {
+  width: 305px !important;
+  overflow: hidden;
+  height: 510px;
+  border:1px solid #ddd;
+  border-radius: 5px;
+}
+.packageImgWrap {
+  height: 280px !important;
+  width: 100%;
+  overflow: hidden;
+}
+.packageImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+.packageImg:hover {
+  transform: scale(1.5);
+}
+.packageContent {
+  margin-top: 5px;
+  padding-left: 5px;
+}
+.star {
+  font-size: 20px !important;
+  color: #4ab449 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .package {
+    width: 295px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .package {
+    width: 305px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .package {
+    margin-left: 40px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .package {
+    margin-left: 17px !important;
+  }
+}

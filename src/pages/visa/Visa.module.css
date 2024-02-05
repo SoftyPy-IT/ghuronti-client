@@ -1,0 +1,19 @@
+.vissa {
+  width: 1440px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .vissa {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .vissa {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .vissa {
+    width: 100%;
+  }
+}

@@ -1,0 +1,167 @@
+.packageWrap{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.packageLeftSide{
+    width: 25%;
+}
+.packageRightSide{
+    width:75%;
+}
+.umrahImgWrap{
+    width:100%;
+    height:400px;
+}
+.umraImage{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.checkIcon{
+    color: #4AB449 !important;
+    font-size: 20px;
+}
+.packageCard{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px 0px;
+    padding: 12px;
+    height: 275px;
+    overflow: hidden;
+    transition: all .5s cubic-bezier(0.04, 0.01, 1, 1.01);
+}
+.packageCard:hover{
+    box-shadow: #4AB449 0px 14px 28px, #4AB449 0px 10px 10px;
+}
+.cardLeft{
+    width: 35%;
+    height: 240px;
+    overflow: hidden;
+}
+.cardIconText{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.cardIconText p{
+    font-size: 16px;
+}
+.cardRight{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.rightText{
+
+}
+.cardPrice{
+    text-align: center;
+}
+.cardPrice button{
+    background: #19ABE3;
+    color: white;
+    width: 121px;
+    height: 35px;
+    border-radius: 3px;
+    margin-top: 7px;
+}
+
+.leftImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.umrahOffer{
+    width: 310px;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+    aspect-ratio: 0;
+}
+.offer{
+    margin-top: 10px;
+}
+.offer p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.LeftSideWrap{
+    width:100%;
+    overflow: hidden;
+}
+.packages p{
+    background: #4AB449;
+    color: white;
+    margin-bottom: 5px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    border-radius: 3px;
+    width: 305px;
+}
+@media only screen and (max-width:1024px){
+    .packageWrap {
+        display: block;
+    }
+    .packageRightSide, .packageLeftSide{
+        width: 100%;
+    }
+    .umrahOffer {
+        width: 100%;
+        height: 300px;
+    }
+   
+    
+}
+@media only screen and (max-width:768px){
+    .packageCard {
+        height: 310px;
+    }
+    .cardIconText p {
+        font-size: 14px;
+    }
+    .cardIconText {
+        margin-bottom: 6px;
+    }
+    .cardRight {
+        width: 60%;
+        display: block;
+        margin-left: 20px;
+    }
+    .Package_packageCard__se_zd:hover {
+        box-shadow: #4AB449 0px 14px 28px, #4AB449 0px 10px 10px;
+        display: block;
+    }
+    .packages p{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:600px){
+    
+    .packageWrap{
+        padding: 20px 15px;
+    }
+    .packageCard {
+        display: block;
+        height:auto;
+        padding: 20px 10px;
+    }
+    .cardLeft {
+        width: 100%;
+    }
+    .cardRight {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 14px;
+    }
+
+}
